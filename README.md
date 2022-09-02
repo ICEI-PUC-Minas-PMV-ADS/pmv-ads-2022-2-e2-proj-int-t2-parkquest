@@ -1,23 +1,27 @@
-# TÍTULO DO PROJETO
+# ParkingQuest:
+Plataforma de Busca e Reserva de Estacionamentos
 
-`CURSO`
+Análise Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+Eixo 2 - Projeto: Desenvolvimento de uma Aplicação Interativa - Turma 02 (Grupo 4)
 
-`SEMESTRE`
+2º semestre 
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este projeto desenvolverá uma aplicação interativa que possibilite às pessoas encontrarem ampla informação para busca e reserva de estacionamentos em um formato ágil e dinâmico, abrangendo todos os estabelecimentos cadastrados na região e com fácil acesso aos recursos tecnológicos.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Fabiana Alkmim Avelar
+* Gabriela Barbosa Caetano Abran
+* Herbert Nordson Silva Dos Santos
+* Leticia Alves Dos Santos Rosolem
+* Ramon Bicalho Cruz Magalhães
+* Samuel de Jesus Santos
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* José Wilson Da Costa
 
 ## Instruções de utilização
 
