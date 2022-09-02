@@ -1,11 +1,11 @@
 # ParkingQuest:
 ## Plataforma de Busca e Reserva de Estacionamentos
 
-Análise Desenvolvimento de Sistemas
+'Análise Desenvolvimento de Sistemas'
 
-Eixo 2 - Projeto: Desenvolvimento de uma Aplicação Interativa - Turma 02 (Grupo 4)
+'Eixo 2 - Projeto: Desenvolvimento de uma Aplicação Interativa - Turma 02 (Grupo 4)'
 
-2º semestre 
+'2º semestre' 
 
 Este projeto desenvolverá uma aplicação interativa que possibilite às pessoas encontrarem ampla informação para busca e reserva de estacionamentos em um formato ágil e dinâmico, abrangendo todos os estabelecimentos cadastrados na região e com fácil acesso aos recursos tecnológicos.
 
