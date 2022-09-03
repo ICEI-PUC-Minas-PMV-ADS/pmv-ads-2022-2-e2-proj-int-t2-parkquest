@@ -3,7 +3,7 @@
 
 ![image](https://user-images.githubusercontent.com/103009155/188252530-d1d4fbd8-d163-41c4-b4c1-35a013d2c146.png)
 
-''Análise Desenvolvimento de Sistemas''
+Análise Desenvolvimento de Sistemas
 
 Eixo 2 - Projeto: Desenvolvimento de uma Aplicação Interativa - Turma 02 (Grupo 4)
 
