@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/103009155/188250700-2054acef-576f-40ca-80e9-9a92391bb2b0.png)
+![image](https://user-images.githubusercontent.com/103009155/188250720-d43bb592-3bcd-4170-bf92-8ac798a48942.png)
 
 # ParkingQuest:
 ## Plataforma de Busca e Reserva de Estacionamentos
