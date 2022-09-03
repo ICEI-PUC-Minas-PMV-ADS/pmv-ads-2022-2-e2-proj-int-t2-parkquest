@@ -1,9 +1,9 @@
-![image](https://user-images.githubusercontent.com/103009155/188252509-dba52976-d207-49fe-88b0-a50c51cb743b.png)
-
 # ParkingQuest:
 ## Plataforma de Busca e Reserva de Estacionamentos
 
-Análise Desenvolvimento de Sistemas
+![image](https://user-images.githubusercontent.com/103009155/188252530-d1d4fbd8-d163-41c4-b4c1-35a013d2c146.png)
+
+'Análise Desenvolvimento de Sistemas'
 
 Eixo 2 - Projeto: Desenvolvimento de uma Aplicação Interativa - Turma 02 (Grupo 4)
 
