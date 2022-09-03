@@ -77,76 +77,67 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Olavo    | Encontrar o recurso tecnológico para divulgar o empreendimento| Captação dos clientes|
+|Joelma   | Encontrar o recurso tecnológico para divulgar o empreendimento| Captação dos clientes|
+|Misael   | Conseguir buscar e/ou reservar uma vaga de estacionamento| Preços compatíveis com sua necessidade diária, acessibilidade e segurança do próprio veículo|
+|Roberto  | Conseguir buscar e/ou reservar uma vaga de estacionamento| Pontualidade e segurança do veículo da empresa|
+|Gabriela | Conseguir buscar e/ou reservar uma vaga de estacionamento| Pontualidade e segurança do próprio veículo|
+|Angelina | Manter alto nível profissional e estacionar em uma vaga preferencial para gestantes| Está grávida e não gostaria de chegar atrasada nas visitas aos seus clientes. |
+|Onofre   | Conseguir estacionar seu veículo próximo aos consultórios que frequenta| Possui dificuldade de locomoção|
 
 ## Requisitos
 
+Um requisito é uma característica observável a qual a solução deverá exercer no mundo real. Trata-se de uma condição para resolução do problema que o sistema se propõe a resolver. Os requisitos funcionais descrevem as possibilidades e necessidade de interação dos usuários com a aplicação. Já os requisitos não funcionais, descrevem como as funcionalidades serão feitas através de tipo de sistema operacional, processamento, banco de dados entre outros, para tornar real o que foi planejado.
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
+A tabela a seguir apresenta os requisitos funcionais do projeto, identificando suas respectivas prioridades de entrega.
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| A aplicação deve apresentar um filtro na tela inicial com Local e Data de Entrada e Saída com título "Qual será sua próxima parada?" | ALTA | 
+|RF-002| A aplicação deve apresentar na tela inicial um ícone de perfil para fazer login, onde o usuário irá preencher os dados de “E-mail” e “Senha” cadastrados. Caso o usuário esteja logado, apresentar o nome do usuário junto ao ícone. | ALTA |
+|RF-003| A aplicação deve apresentar imagens que auxiliem o entendimento do leitor para cada assunto exposto no corpo da página. | MÉDIA |
+|RF-004| A aplicação deve apresentar no rodapé um link para os contatos do site contendo telefone, Whatsapp, Instagram e e-mail. | MÉDIA |
+|RF-005| A aplicação deve conter uma aba no cabeçalho "Anuncie seu empreendimento" com a funcionalidade de, ao clicar nela, abrir uma nova página com um formulário para o cadastro de novos empreendimentos. | ALTA |
+|RF-006| O formulário de cadastro de novos empreendimentos deve conter: nome, e-mail, celular, estado, cidade, CNPJ, endereço, quantidade de vagas, tabela de preços e fotos do local. | ALTA |
+|RF-007| O administrador do estacionamento pode cadastrar, excluir, alterar e visualizar os dados do estacionamento. | ALTA |
+|RF-008| O usuário motorista pode cancelar, alterar e visualizar os dados de sua reserva. | ALTA |
+|RF-009| A aplicação deve apresentar na tela inicial ofertas e recomendações específicas para cada cidade. | ALTA |
+|RF-010| Após o usuário informar na página inicial a cidade e data de entrada e saída, a aplicação deve apresentar a funcionalidade de mostrar as informações em lista com os estacionamentos, disponibilidade, preço e um filtro para ordenar as escolhas. | ALTA |
+|RF-011| A aplicação deve conter um botão para o usuário selecionar o estacionamento desejado, e quando acionado deverá apresentar uma página com fotos do local, endereço, disponibilidade, descrição, ranking de estrelas, preço e o botão reservar. | ALTA |
+|RF-012| A aplicação deve permitir que no fechamento da reserva o usuário confirme os dados da reserva e finalize. | ALTA |
+|RF-013| A aplicação deve permitir visualizar as informações de contatos da(s) pessoa(s) que criaram o site e o mantém e permitir envio de mensagens para contato com os mesmos, informando nome, e-mail e texto da mensagem. | BAIXA |
+|RF-014| Na página de Login, deve possuir um link com a opção de “Esqueci a senha”, caso o usuário precise criar uma nova senha. | ALTA |
+|RF-005| Na página de “Esqueci minha senha”, o usuário irá preencher o e-mail cadastrado. Caso esse e-mail não esteja na lista de cadastros, deverá ser exibida uma mensagem informando que o e-mail não está no cadastro. | ALTA |
+|RF-005| Na página de “Esqueci minha senha”, caso o e-mail esteja cadastrado, haverá a opção do usuário criar uma nova senha. Se a senha for válida. | ALTA |
+|RF-005| A aplicação deve apresentar um mapa com a localização dos empreendimentos mais próximos e os preços sugeridos. | ALTA |
 
 ### Requisitos não Funcionais
 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender, identificando suas prioridades de entrega.
+
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| A aplicação deve ser publicada em um ambiente acessível publicamente na Internet. | ALTA | 
+|RNF-002| A aplicação deve ser responsiva, permitindo a visualização em um celular, desktop, tablet de forma adequada. | ALTA | 
+|RNF-003| A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA |
+|RNF-004| O desenvolvimento deve ser em HTML, CSS, Javascript, BD SQL, C# podendo utilizar frameworks. | MÉDIA |
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As restrições podem ser explicadas como tarefas que limitam e comprometem a execução e o desenvolvimento do projeto, servindo como marco delimitador daquilo que precisará ser realizado para que o projeto seja considerado pronto. 
+
+A tabela abaixo, apresenta as seguintes restrições do projeto:
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RE-01| O projeto deverá ser entregue até o final do semestre letivo. |
+|RE-02| A aplicação deverá ter a homologação das fases de testes (QA) e operação assistida antes do processo de subida para produção. |
+|RE-03| A aplicação interativa Back-end será desenvolvida com base na arquitetura de software MVC. |
+|RE-04| A aplicação deverá ficar restrito a um único idioma, que será o “pt-br” (português). |
 
 ## Diagrama de Casos de Uso
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
