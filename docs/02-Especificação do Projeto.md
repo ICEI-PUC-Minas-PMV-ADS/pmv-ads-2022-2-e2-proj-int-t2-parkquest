@@ -141,3 +141,6 @@ A tabela abaixo, apresenta as seguintes restrições do projeto:
 ## Diagrama de Casos de Uso
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+
+![image](https://user-images.githubusercontent.com/103009155/188250052-c345b684-d821-4368-8ec4-2eb38067e006.png)
+
