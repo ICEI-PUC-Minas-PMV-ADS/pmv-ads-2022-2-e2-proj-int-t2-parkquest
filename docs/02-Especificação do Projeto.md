@@ -1,21 +1,75 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+Após a apresentação do embasamento e dos objetivos desse projeto, será esclarecido o modo pelo qual tais objetivos serão concretizados. 
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Primeiramente, serão descritas as personas, que consistem em representações das histórias, características e motivações do público-alvo do projeto, ou seja, uma espécie de simulação do público ao qual o projeto se destina. As informações das personas são baseadas em dados reais acerca de clientes em potencial para a solução a ser desenvolvida. 
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Com base nas histórias desses usuários, os integrantes do grupo ─ por meio de discussões e análises ─ desenvolveram o backlog do produto: um artefato de metodologia ágil onde são listados os requisitos que devem ser executados durante o desenvolvimento do projeto.
 
 ## Personas
 
 |Olavo Farias Motta|![image](https://user-images.githubusercontent.com/103009155/188247716-3bc5ce33-bbb5-4088-8b26-0443caf68128.png)|
 |-----------------------|-|
 |Idade:|28|           
-|Ocupação:|  Proprietário do Estacionamento |
+|Ocupação:| Proprietário do Estacionamento|
 |Aplicativos:|	WhatsApp,	Facebook, Instagram, LinkedIn|
 |Motivações |	Criar o seu próprio empreendimento / Captar clientes para que seu negócio seja bem-sucedido, gerando lucros|
 |Frustrações | Dificuldade para captar clientes / Não possuir conhecimento satisfatório para divulgação do empreendimento na internet|
-|História |	Encontra dificuldades ao buscar um canal de comunicação que proporcione maior visibilidade ao seu empreendimento. É um empreendedor novo e disposto a encontrar uma solução.|
+|História |	Encontra dificuldades ao buscar um canal de comunicação que proporcione maior visibilidade ao seu empreendimento. É um empreendedor novo e disposto a encontrar uma solução|
+
+|Joelma Limeira Nascimento|![image](https://user-images.githubusercontent.com/103009155/188248071-5533cc09-398d-47a0-97b6-4e7e2a85754e.png)|
+|-----------------------|-|
+|Idade:|36|           
+|Ocupação:| Proprietária do Estacionamento|
+|Aplicativos:|	WhatsApp,	Facebook, LinkedIn|
+|Motivações |	Manter o empreendimento familiar ativo / Aumentar o fluxo de clientes do empreendimento|
+|Frustrações | Não conseguir aprimorar e inovar o empreendimento / Baixa visibilidade do empreendimento na internet para captação de novos clientes|
+|História |	Sente-se insegura de tomar decisões em para captar mais clientes, permanecendo com as mesmas diretrizes da gestão passada. Portanto necessita da internet para resolver o impasse|
+
+|Misael Cunha dos Anjos|![image](https://user-images.githubusercontent.com/103009155/188248200-0ef40524-7bdf-4b78-a1f6-549bbfd85ebe.png)|
+|-----------------------|-|
+|Idade:|30|           
+|Ocupação:| Motorista de aplicativos (Uber e 99 pop)|
+|Aplicativos:|	WhatsApp, LinkedIn|
+|Motivações |	Conseguir estacionar seu veículo com segurança por um preço acessível / Poder reservar por um período mensal uma vaga para seu veículo em um estacionamento|
+|Frustrações | Por não ter casa própria, possui dificuldade de encontrar um estacionamento que atenda a sua condição financeira e que seja próximo à sua residência. / Não possuir conhecimento satisfatório para divulgação do empreendimento na internet|
+|História |	Mora com os familiares, no local não tem garagem e precisa de vaga perto de onde reside para deixar seu veículo.|
+
+|Roberto Batista Guimarães|![image](https://user-images.githubusercontent.com/103009155/188248392-50d22159-aa4c-428d-9fc1-b949f5b26a5d.png)|
+|-----------------------|-|
+|Idade:|42|           
+|Ocupação:| Vendedor externo de uma empresa de hidráulica|
+|Aplicativos:| Facebook, WhatsApp|
+|Motivações |	Ter pontualidade em suas reuniões e segurança do veículo|
+|Frustrações | Atrasos nas visitas de clientes por estar em outra região e não saber onde deixar o seu veículo|
+|História |	Visitas de rotinas com os clientes da empresa, precisa de ter um local temporário para deixar seu veículo|
+
+|Gabriela Assis de Moraes|![image](https://user-images.githubusercontent.com/103009155/188248490-5a864212-2ba1-4d5f-9883-4ebffd4af3fd.png)|
+|-----------------------|-|
+|Idade:|20|           
+|Ocupação:| Estudante|
+|Aplicativos:|	WhatsApp,	Facebook|
+|Motivações |	Ter pontualidade nas aulas e segurança para seu veículo|
+|Frustrações | A universidade não possui estacionamento e a estudante necessita encontrar um local para deixar o seu veículo|
+|História |	Recém classificada em uma Universidade no interior, ela não quer mudar de residência na cidade e necessita de um lugar para deixar seu veículo|
+
+|Angelina Marques Santos|![image](https://user-images.githubusercontent.com/103009155/188248668-3add2f0d-7fc1-44dd-a790-9d514799e273.png)|
+|-----------------------|-|
+|Idade:|30|           
+|Ocupação:| Gerente da contabilidade|
+|Aplicativos:|	WhatsApp,	Facebook, Instagram, LinkedIn|
+|Motivações |	Manter o alto nível de desempenho profissional / Por estar grávida, gostaria de poder estacionar em uma vaga preferencial mais acessível para sua condição atual|
+|Frustrações | Perder muito tempo buscando um estacionamento nas visitas aos clientes / Insegurança ao deixar seu carro estacionado na rua / Dificuldade em manobrar o carro e ter que se deslocar longas distâncias por ser gestante|
+|História |	Profissional que atua desde os seus 18 anos, no setor de contabilidade. Pós-graduada e eleita por 3 vezes consecutivas a melhor gerente de sua região. Está grávida do seu primeiro filho|
+
+|Onofre Lima de Castro|![image](https://user-images.githubusercontent.com/103009155/188248853-206ae6aa-1c76-4701-96d3-cb44b86690b5.png)|
+|-----------------------|-|
+|Idade:|72|           
+|Ocupação:|  Aposentado|
+|Aplicativos:|	WhatsApp,	Facebook|
+|Motivações |	Conseguir estacionar seu veículo o mais próximo possível dos consultórios médicos que frequenta|
+|Frustrações | Insegurança ao deixar seu carro estacionado na rua / Dificuldade em manobrar o carro e ter que se deslocar longas distâncias por conta de seu joelho|
+|História |	Senhor viúvo de 72 anos que após uma cirurgia no joelho, utiliza uma bengala para se locomover. Utiliza seu carro para ir às suas consultas médicas|
 
 ## Histórias de Usuários
 
