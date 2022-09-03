@@ -14,11 +14,9 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |Ocupação:|  Proprietário do Estacionamento |
 |Aplicativos:|	WhatsApp,	Facebook, Instagram, LinkedIn|
 |Motivações |	* Criar o seu próprio empreendimento. 
-* Captar clientes para que seu negócio seja bem-sucedido, gerando lucros.
- |
+* Captar clientes para que seu negócio seja bem-sucedido, gerando lucros.|
 |Frustrações |	* Dificuldade para captar clientes.
-* Não possuir conhecimento satisfatório para divulgação do empreendimento na internet.
- |
+* Não possuir conhecimento satisfatório para divulgação do empreendimento na internet.|
 |História |	* Encontra dificuldades ao buscar um canal de comunicação que proporcione maior visibilidade ao seu empreendimento. É um empreendedor novo e disposto a encontrar uma solução.|
 
 ## Histórias de Usuários
