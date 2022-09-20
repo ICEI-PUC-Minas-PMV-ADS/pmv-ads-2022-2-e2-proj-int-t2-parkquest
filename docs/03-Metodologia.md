@@ -91,7 +91,10 @@ As tarefas são, ainda, etiquetadas em função da urgência da atividade e segu
           - Amarela: prioridade média 
           - Verde: prioridade baixa 
 
+As tarefas serão livres para qualquer membro do time poder executá-las ou direcionadas a determinado membro do time, que tenha mais experiência em determinada área de conhecimento. Com relação a livre escolha de tarefas, obrigatoriamente, deve ser respeitada a hierarquia de prioridades. Enquanto tiverem tarefas de maiores prioridades disponíveis, não poderão ser iniciadas as tarefas de menor prioridade, a prioridade padrão é a amarela, devendo ser vermelhas as prioridades urgentes que surgirem ao longo do projeto.  
+
 Abaixo, figura demonstrando a disposição das etiquetas:
+
 ![](/docs/img/Labels.png)
 
 
