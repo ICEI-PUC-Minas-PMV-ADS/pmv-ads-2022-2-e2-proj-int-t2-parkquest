@@ -65,6 +65,11 @@ A partir dessa metodologia, a equipe está organizada da seguinte maneira:
      
 Como já dito, para o gerenciamento, organização e distribuição das tarefas, utiliza-se a ferramenta do Github. As Sprints estão estruturadas no formato de marcos, conforme demonstrado abaixo:
 
+![](/docs/img/milestone.png)
+
+
+
+![](/docs/img/issues.png)
  
 > **Links Úteis**:
 > - [Github](https://github.com)
