@@ -80,16 +80,18 @@ Os entregáveis estão dispostos no “Product Backlog” e apresentados em mét
 - **Test**: Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo saiu perfeito. 
 - **Locked**: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa. 
 - **Done**: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação. 
-- 
+
 Abaixo, figura demonstrando a disposição dos entregáveis:
 
 ![](/docs/img/kanban.png)
 
 As tarefas são, ainda, etiquetadas em função da urgência da atividade e seguem o seguinte esquema de cores/categorias: 
  
-·       Vermelha: prioridade alta 
-·       Amarela: prioridade média 
-·       Verde: prioridade baixa 
+          - Vermelha: prioridade alta 
+          - Amarela: prioridade média 
+          - Verde: prioridade baixa 
+
+Abaixo, figura demonstrando a disposição das etiquetas:
 ![](/docs/img/Labels.png)
 
 
