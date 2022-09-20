@@ -72,7 +72,7 @@ Além disso, temos o Backlog do Produto elaborado pelo grupo no GitHub, cujo ace
 
 Abaixo, figura demonstrando a disposição dos entregáveis:
 
-![](/docs/img/milestone.png)
+![](/docs/img/kanban.png)
 
 ![](/docs/img/issues.png)
  
