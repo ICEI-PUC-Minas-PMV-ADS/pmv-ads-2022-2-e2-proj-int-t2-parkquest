@@ -56,7 +56,15 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 O gerenciamento e organização do projeto se baseia na metodologia ágil Scrum, que prioriza a entrega de valor e o proporcionamento de uma maior adaptabilidade da equipe. Isso ocorre em função da facilidade desse método em lidar com imprevistos e mudanças no planejamento ao longo do percurso.
 A partir dessa metodologia, a equipe está organizada da seguinte maneira:
 
-
+- **Scrum Master**: Gabriela Barbosa Caetano Abran
+- **Product Owner**: Fabiana Alkmim Avela
+- **Equipe de Desenvolvimento**:
+     - Herbert Nordson Silva dos Santos 
+     - Samuel de Jesus Santos
+     - Letícia Alves dos Santos Rosolem
+- **Equipe de Design**:
+     - Ramon Bicalho Cruz Magalhães 
+     - 
 ### Processo
 
 Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
