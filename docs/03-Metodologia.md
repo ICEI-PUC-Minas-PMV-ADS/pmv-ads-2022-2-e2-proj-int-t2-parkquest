@@ -68,13 +68,15 @@ Como já dito, para o gerenciamento, organização e distribuição das tarefas,
 ![](/docs/img/milestone.png)
 
 Além disso, temos o Backlog do Produto elaborado pelo grupo no GitHub, cujo acesso é possível através da URL:
+ 
  - [ https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/54](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/54)
 
 
 Abaixo, figura demonstrando a disposição dos entregáveis:
+
 ![](/docs/img/kanban.png)
 
-
+![](/docs/img/labels.png)
 
 ![](/docs/img/issues.png)
  
