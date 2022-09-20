@@ -67,12 +67,13 @@ Como já dito, para o gerenciamento, organização e distribuição das tarefas,
 
 ![](/docs/img/milestone.png)
 
-
+Além disso, temos o Backlog do Produto elaborado pelo grupo no GitHub, cujo acesso é possível através da URL:
+> - [Github](https://github.com)
 
 ![](/docs/img/issues.png)
  
 > **Links Úteis**:
-> - [Github](https://github.com)
+> - [Kanban Github](https:// https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/54)
 
 ### Ferramentas
 
