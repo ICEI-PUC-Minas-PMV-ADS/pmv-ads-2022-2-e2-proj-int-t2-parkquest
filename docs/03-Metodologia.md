@@ -76,7 +76,7 @@ Abaixo, figura demonstrando a disposição dos entregáveis:
 
 ![](/docs/img/kanban.png)
 
-![](/docs/img/labels.png)
+![](/docs/img/Labels.png)
 
 ![](/docs/img/issues.png)
  
