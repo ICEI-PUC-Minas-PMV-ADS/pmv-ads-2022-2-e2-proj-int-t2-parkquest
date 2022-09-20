@@ -3,7 +3,21 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia deste trabalho consiste em apresentar o grupo de ferramentas presentes no projeto e a maneira pela qual tais recursos foram utilizados. Foram utilizados tanto recursos para a manutenção do código fonte, quanto ferramentas de gestão e organização de equipe na execução das etapas do projeto.
+
+## Relação de Ambientes de Trabalho
+
+A tabela abaixo demonstra as plataformas nas quais foram desenvolvidos os respectivos artefatos do projeto, além do link para acessá-los:
+
+|Ambiente|Plataforma|Link de Acesso|
+|--------|----------|--------------|
+|Repositório de código fonte|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-parkquest.git|
+|Documentos do projeto|Google Drive|https://docs.google.com/document/d/1XOPhgaiDVECNWLgBvE_L-eR4rTQZ4_Yu/edit#|
+|Documentos do projeto|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-parkquest/tree/main/docs|
+|Projeto de Interface e  Wireframes|MVC|https://dotnet.microsoft.com/en-us/apps/aspnet| 
+|Gerenciamento do Projeto|GitHub|https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/54|
+|Comunicação e Reuniões|Microsoft Teams|https://teams.microsoft.com/_#/school/conversations/Grupo%2004?threadId=19:e2f75941b6964dd3abc41bc9ef30f166@thread.tacv2&ctx=channel|
+
 
 ## Controle de Versão
 
