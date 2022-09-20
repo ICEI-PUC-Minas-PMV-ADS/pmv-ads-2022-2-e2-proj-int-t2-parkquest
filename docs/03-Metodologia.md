@@ -97,6 +97,6 @@ Abaixo, figura demonstrando a disposição das etiquetas:
 
 ![](/docs/img/Labels.png)
 
-Adicionalmente, a ferramenta conta com um diretório para a criação de “Issues” que são pendências e problemas ainda não resolvidas, devendo ser tratadas e analisadas ao longo do projeto:
+Adicionalmente, a ferramenta conta com um diretório para a criação de “Issues” que são pendências e problemas ainda não resolvidas, devendo ser tratadas e analisadas ao longo do projeto, conforme imagem abaixo:
 
 ![](/docs/img/issues.png)
