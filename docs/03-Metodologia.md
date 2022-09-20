@@ -100,3 +100,9 @@ Abaixo, figura demonstrando a disposição das etiquetas:
 Adicionalmente, a ferramenta conta com um diretório para a criação de “Issues” que são pendências e problemas ainda não resolvidas, devendo ser tratadas e analisadas ao longo do projeto, conforme imagem abaixo:
 
 ![](/docs/img/issues.png)
+
+## Diagrama de Classes
+
+![](/docs/img/DiagramaDeClasseParkQuest.drawio.png)
+
+
