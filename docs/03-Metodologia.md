@@ -73,7 +73,7 @@ Além disso, temos o Backlog do Produto elaborado pelo grupo no GitHub, cujo ace
 ![](/docs/img/issues.png)
  
 > **Links Úteis**:
-> - [Kanban Github](https:// https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/54)
+> - [Kanban Github](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/54)
 
 ### Ferramentas
 
