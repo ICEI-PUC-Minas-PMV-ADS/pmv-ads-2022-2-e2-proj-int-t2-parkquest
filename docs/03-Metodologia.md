@@ -94,13 +94,3 @@ Adicionalmente, a ferramenta conta com um diretório para a criação de “Issu
 
 ![](/docs/img/issues.png)
 
-## Diagrama de Classes
-
-![](/docs/img/DiagramaDeClasseParkQuest.drawio.png)
-
-## Modelo Entidade Relacionamento (Projeto Conceitual) 
-
-<img width="815" alt="Modelo_entidade_relacionamento" src="https://user-images.githubusercontent.com/69546112/192414803-fb37705c-8985-4426-adf7-f36199f9ce61.png">
-
-![modelo_relacionamento](https://user-images.githubusercontent.com/69546112/192414725-0aa5e3c1-ba96-4e2c-8865-c0e25894f463.jpeg)
-
