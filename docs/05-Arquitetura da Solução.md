@@ -4,9 +4,13 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
+
+
 ## Diagrama de Classes
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
+
+![image](https://user-images.githubusercontent.com/103009155/193188869-8b4b527a-71c2-4ef3-8c34-e36797a8fbba.png)
 
 
 ## Modelo ER (Projeto Conceitual)
