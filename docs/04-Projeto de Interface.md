@@ -13,7 +13,13 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. 
 
-![image](https://user-images.githubusercontent.com/103009155/193191934-d987f258-47c5-4598-b3c7-035f4b23c8f9.png)
+![Fluxograma p1](https://user-images.githubusercontent.com/100328619/193428405-59bb2fce-9d9d-4939-b269-57b494623248.jpg)
+
+![Fluxograma p2](https://user-images.githubusercontent.com/100328619/193428407-40aea193-eb84-4a12-94e3-43b23fc921db.jpg)
+
+
+
+[Fluxograma.drawio.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-parkquest/files/9691189/Fluxograma.drawio.pdf)
 
 
 ## Wireframes
