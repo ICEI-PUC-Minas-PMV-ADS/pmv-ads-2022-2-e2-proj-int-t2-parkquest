@@ -8,8 +8,7 @@ Os requisitos para realização dos testes de software são:
  
 | **Caso de Teste** 	| **CT-01 – Localização no mapa** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-01 – A aplicação deve apresentar na página principal um buscador no qual o usuário irá digitar o endereço que pretende ir e a data de entrada e de saída.
-RF-17 – A aplicação deve confirmar a localização do usuário no mapa|
+|	Requisito Associado 	| RF-01 – A aplicação deve apresentar na página principal um buscador no qual o usuário irá digitar o endereço que pretende ir e a data de entrada e de saída. RF-17 – A aplicação deve confirmar a localização do usuário no mapa|
 | Objetivo do Teste 	| VVerificar se a localização do usuário está corretamente indicada no mapa. |
 | Passos 	| - 1) Acessar o Navegador 2) Informar o endereço da aplicação 3) Visualizar a página inicial 4) Inserir o endereço a ser buscado 5) Clicar em pesquisar 6) Visualizar mapa com a localização informada no passo 2.|
 |Critério de Êxito | - A tela inicial deve abrir corretamente - Ao digitar o endereço, o usuário deve ser direcionado à tela de confirmação do endereço - O endereço digitado deve ser corretamente indicado no mapa..|
