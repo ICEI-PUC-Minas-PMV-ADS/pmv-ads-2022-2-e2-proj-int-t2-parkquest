@@ -75,6 +75,7 @@ Os requisitos para realização dos testes de software são:
 |	Requisito Associado 	| RF-13 - A aplicação deve permitir visualizar as informações de contatos da(s) pessoa(s) que criaram o site e o mantém e permitir envio de mensagens para contato com os mesmos, informando nome, e-mail e texto da mensagem. |
 | Objetivo do Teste 	| Verificar se as mensagens de contato estão acontecendo corretamente. |
 | Passos 	| - A tela de contato deve abrir corretamente - Após a finalização desta, deve ser apresentada uma mensagem de envio com êxito. |
+|Critério de Êxito | -- A tela de contato deve abrir corretamente - Após a finalização desta, deve ser apresentada uma mensagem de envio com êxito. |
 |  	|  	|
 
 
