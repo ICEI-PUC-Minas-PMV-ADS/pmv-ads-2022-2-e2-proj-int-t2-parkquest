@@ -15,12 +15,10 @@ Os requisitos para realização dos testes de software são:
 |  	|  	|
 | **Caso de Teste** 	| **CT-02 – Busca de estacionamentos por proximidade** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-17 – A aplicação deve apresentar uma página com a lista dos estacionamentos próximos ao local que o usuário motorista pretende ir. 
-RF-11 – A aplicação deve conter um botão para o usuário selecionar o estacionamento desejado, e quando acionado deverá apresentar uma página com fotos do local, endereço, disponibilidade, descrição, ranking de estrelas, preço e o botão reservar.
- |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|	Requisito Associado 	| RF-17 – A aplicação deve apresentar uma página com a lista dos estacionamentos próximos ao local que o usuário motorista pretende ir. RF-11 – A aplicação deve conter um botão para o usuário selecionar o estacionamento desejado, e quando acionado deverá apresentar uma página com fotos do local, endereço, disponibilidade, descrição, ranking de estrelas, preço e o botão reservar.|
+| Objetivo do Teste 	| Verificar se o resultado da busca por estacionamentos está corretamente indicado. |
+| Passos 	| 1) Acessar o Navegador 2) Informar o endereço da aplicação 3) Visualizar a página de busca 4) Selecionar o estacionamento desejado 5) Visualizar as informações do estacionamento selecionado.|
+|Critério de Êxito | - A tela de busca de estacionamentos por proximidade deve abrir corretamente - Ao digitar o endereço, o usuário deve ser direcionado à tela de resultado da busca - A tela de resultado da busca deve indicar a disponibilidade de vagas em estabelecimentos próximos ao endereço buscado, a tabela de preço, a disponibilidade das vagas, com suas informações de contato.|
 |  	|  	|
 | **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
 |:---:	|:---:	|
