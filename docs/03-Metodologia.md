@@ -14,8 +14,7 @@ A tabela abaixo demonstra as plataformas nas quais foram desenvolvidos os respec
 |Repositório de código fonte|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-parkquest.git|
 |Documentos do projeto|Google Drive|https://docs.google.com/document/d/1XOPhgaiDVECNWLgBvE_L-eR4rTQZ4_Yu/edit#|
 |Documentos do projeto|GitHub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-parkquest/tree/main/docs|
-|Projeto de Interface e  Wireframes|MVC|https://dotnet.microsoft.com/en-us/apps/aspnet| 
-|Projeto de Interface e  Wireframes|Visual Studio Code|https://code.visualstudio.com/| 
+|Projeto de Interface e  Wireframes|MarvelApp|https://marvelapp.com/project/6447954| 
 |Gerenciamento do Projeto|GitHub|https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/54|
 |Comunicação e Reuniões|Microsoft Teams|https://teams.microsoft.com/_#/school/conversations/Grupo%2004?threadId=19:e2f75941b6964dd3abc41bc9ef30f166@thread.tacv2&ctx=channel|
 
