@@ -62,19 +62,18 @@ Os requisitos para realização dos testes de software são:
 | Passos 	| 1) Acessar o Navegador 2) Informar o endereço da aplicação 3) Clicar no botão Anuncie seu empreendimento4) Preencher os campos solicitados (nome, e-mail, celular, estado, cidade, CNPJ, endereço, quantidade de vagas, tabela de preços e fotos do local.) 5) Clicar no botão anunciar |
 |Critério de Êxito | - O anuncio  foi realizado com sucesso. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	| **CT-09 – Avaliação da reserva** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|	Requisito Associado 	| RF-11 - A aplicação deve conter um botão para o usuário selecionar o estacionamento desejado, e quando acionado deverá apresentar uma página com fotos do local, endereço, disponibilidade, descrição, ranking de estrelas, preço e o botão reservar. |
+| Objetivo do Teste 	| Verificar se a avaliação está acontecendo corretamente |
+| Passos 	| 1) Acessar o Navegador 2) Informar o endereço da aplicação 3) Efetuar o login 4) na área do usuário motorista ir em avaliar 5) Realizar a avaliação |
+|Critério de Êxito | - A tela de avaliação deve abrir corretamente - Após a finalização desta, deve ser apresentada uma mensagem de envio com êxito. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	| **CT-10 – Contato com o administrador** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|	Requisito Associado 	| RF-13 - A aplicação deve permitir visualizar as informações de contatos da(s) pessoa(s) que criaram o site e o mantém e permitir envio de mensagens para contato com os mesmos, informando nome, e-mail e texto da mensagem. |
+| Objetivo do Teste 	| Verificar se as mensagens de contato estão acontecendo corretamente. |
+| Passos 	| - A tela de contato deve abrir corretamente - Após a finalização desta, deve ser apresentada uma mensagem de envio com êxito. |
 |  	|  	|
 
 
