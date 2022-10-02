@@ -1,4 +1,4 @@
-# ParkingQuest:
+# ParkQuest:
 ## Plataforma de Busca e Reserva de Estacionamentos
 
 ![image](https://user-images.githubusercontent.com/103009155/188252530-d1d4fbd8-d163-41c4-b4c1-35a013d2c146.png)
