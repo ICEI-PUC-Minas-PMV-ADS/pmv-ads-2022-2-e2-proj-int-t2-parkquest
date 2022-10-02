@@ -47,7 +47,7 @@ Dados a serem coletados:
    * Tarefas sem erros;
    * Tarefas com erros;
    * Tarefas com erros críticos
- * Medir a stusfação do uso do aplicativo. (Questionário NPS)
+ * Medir a satisfação do uso do aplicativo. (Questionário NPS)
 
 Referência:
 
