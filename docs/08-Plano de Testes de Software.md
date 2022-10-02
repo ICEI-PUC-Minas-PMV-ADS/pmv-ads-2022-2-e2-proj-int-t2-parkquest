@@ -27,40 +27,40 @@ Os requisitos para realização dos testes de software são:
 | Passos 	| 1) Acessar o Navegador 2) Informar o endereço da aplicação 3) Visualizar a página de login 4) Inserir o e-mail e senha cadastrados 5) Ser redirecionado para a tela de área do usuário motorista ou do usuário estacionamento.
 |Critério de Êxito | - A tela de login deve abrir corretamente - O login e senha cadastrados devem direcionar o usuário para a tela de área do usuário motorista ou área do estacionamento - Login e senha incorretos devem exibir uma mensagem de login ou senha incorretos.|
 |  	|  	|
-| **Caso de Teste** 	| **CT-04– Área do usuário estacionamento** 	|
+| **Caso de Teste** 	| **CT-04– Área do usuário empreendimento** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-07 – O administrador do estacionamento pode cadastrar, excluir, alterar e visualizar os dados do estacionamento.|
-| Objetivo do Teste 	| Verificar se a área do estacionamento está permitindo a alteração e a atualização dos dados e corretamente.|
-| Passos 	| 1) Acessar o Navegador 2) Informar o endereço da aplicação 3) Visualizar a página de área do estacionamento 4) Inserir um todas as informações daquele estabelecimento 5) Visualizar a disponibilidade de um estabelecimento 6) Alterar a disponibilidade e as informações das vagas de um estacionamento|
-|Critério de Êxito | - A tela de área do estacionamento deve abrir corretamente - A página deve permitir a inclusão de vagas tanto disponíveis quanto indisponíveis - A página deve permitir que o estabelecimento visualize e altere a disponibilidade a qualquer momento. |
+| Objetivo do Teste 	| Verificar se a área do empreendimento está permitindo a alteração e a atualização dos dados e corretamente.|
+| Passos 	| 1) Acessar o Navegador 2) Informar o endereço da aplicação 3) Visualizar a página de área do empreendimento 4) Inserir um todas as informações 5) Visualizar a disponibilidade de um estabelecimento 6) Alterar a disponibilidade e as informações das vagas de um estacionamento|
+|Critério de Êxito | - A tela de área do usuário motorista deve abrir corretamente e todas as funcionalidades de gestão da reserva devem funcionar corretamente
 |  	|  	|
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	| **CT-05 – Área do usuário motorista** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
+|	Requisito Associado 	| RF-08 - O usuário motorista pode cancelar, alterar e visualizar os dados de sua reserva. |
+| Objetivo do Teste 	| Verificar se a área do motorista está permitindo a alteração e a atualização dos dados e corretamente. |
+| Passos 	| 1) Acessar o Navegador 2) Informar o endereço do Site 3) Visualizar a página de área do usuário motorista 4) Inserir todos os dados de cadastrado 5) Ser redirecionado para a tela de login do usuário |
+|Critério de Êxito | - A tela de área do usuário motorista deve abrir corretamente e todas as funcionalidades de gestão da reserva devem funcionar corretamente |
+|  	|  	|
+| **Caso de Teste** 	| **CT-06 – Esqueci a senha** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-14 – A aplicação deve permitir que o usuário recupere sua senha em caso de esquecimento RF-15 – Na página de “Esqueci minha senha”, o usuário irá preencher o e-mail cadastrado. Caso esse e-mail não esteja na lista de cadastros, deverá ser exibida uma mensagem informando que o e-mail não está no cadastro. RF-16 – Na página de “Esqueci minha senha”, caso o e-mail esteja cadastrado, haverá a opção de o usuário criar uma nova senha. Se a senha for válida.|
+| Objetivo do Teste 	| Verificar se a alteração de cadastro está ocorrendo corretamente. |
+| Passos 	| 1) Acessar o Navegador 2) Informar o endereço da aplicação 3) Ir para a página de login 4) Acessar com o login e senha 5) Clicar no botão esqueci a senha 6) O usuário será direcionado para a página de alterar o cadastro 7) Acessar o login novamente com o cadastro alterado. |
+|Critério de Êxito | - A tela de novo cadastro deve abrir corretamente - Ao alterar o cadastro, o usuário deverá conseguir realizar login com o novo cadastro |
+|  	|  	|
+| **Caso de Teste** 	| **CT-07 – Cadastrar usuário** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-2 – A aplicação deve apresentar na tela inicial um ícone de perfil para fazer login, onde o usuário irá preencher os dados de “E-mail” e “Senha” cadastrados. Caso o usuário esteja logado, apresentar o nome do usuário junto ao ícone. . |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
+| Passos 	| ) Acessar o Navegador 2) Informar o endereço da aplicação 3) Cadastrar um novo usuário 4) Preencher os campos solicitados (nome, CPF, e-mail e senha) 5) Clique no botão cadastrar  |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	| **CT-08 – Anuncie seu empreendimento** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|	Requisito Associado 	| F-5 – A aplicação deve conter uma aba no cabeçalho "Anuncie seu empreendimento" com a funcionalidade de, ao clicar nela, abrir uma nova página com um formulário para o cadastro de novos empreendimentos. RF-6 – O formulário de cadastro de novos empreendimentos deve conter: nome, e-mail, celular, estado, cidade, CNPJ, endereço, quantidade de vagas, tabela de preços e fotos do local.|
+| Objetivo do Teste 	| Verificar se o usuário consegue cadastrar seu empreendimento na na aplicação. |
+| Passos 	| 1) Acessar o Navegador 2) Informar o endereço da aplicação 3) Clicar no botão Anuncie seu empreendimento4) Preencher os campos solicitados (nome, e-mail, celular, estado, cidade, CNPJ, endereço, quantidade de vagas, tabela de preços e fotos do local.) 5) Clicar no botão anunciar |
+|Critério de Êxito | - O anuncio  foi realizado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
 |:---:	|:---:	|
