@@ -20,3 +20,35 @@ Participantes:
 |Usuário 3 | Desenvolvedor Front- End |	Celular/ Computador |	Administrador |
 |Usuário 4 | Empresário |	Computador|	Admin. Estacionamento |
 |Usuário 5 | Engenheiro |	Celular |	Usuário |
+
+
+Procedimentos:
+Os testes deverão ocorrer de maneira remota. E as tarefas a serem executadas serão apresentadas abaixo:
+
+1.	Abrir o site em um navegador web através de link
+2.	Fazer login no sistema por meio de interface que recebe login e senha, com possibilidade de recuperação de senha, em caso de esquecimento por parte do usuário.
+	a.	Preencher login e senha
+	b.	Recuperar senha, em caso de esquecimento, com envio de senha por e-mail
+	c.	Em caso de usuário não cadastrado, cadastrar de usuário no sistema
+3.	Encontrar dados de reservas com seções referentes a Cadastro, Cancelamento de Reserva e Reserva de Vagas.
+	a.	Dentro da Edição de vagas, permitir visualização, seleção de reservas e edição de reservas. 
+	b.	Dentro do Cancelamento de Reservas, permitir a visualização, seleção e exclusão, ao efetuar a operação de exclusão deve ser enviada confirmação de cancelamento de reserva.
+	c.	Dentro da reserva de vagas, requerer local para reserva, definição de data por meio de campo para adição de data, possibilitar uso de filtros específicos para reserva, possibilitar a seleção do estacionamento, inserção de dados de reserva e confirmação de reserva.
+4.	Encontrar o campo para anúncio de estacionamento
+	a.	Verificar se usuário está logado ao sistema
+	b.	Possibilitar seleção entre cadastro de empreendimento, edição de empreendimento e Cancelamento de empreendimento
+	c.	Cadastro de empreendimento – Preencher formulário de cadastro, confirmar cadastro.
+	d.	Edição de empreendimento – Visualizar empreendimentos cadastrados, selecionar empreendimento, editar campos, confirmar edição.
+	e.	Cancelar empreendimento – Visualizar empreendimentos cadastrados, selecionar empreendimento, clicar botão para exclusão, confirmação de exclusão
+
+Dados a serem coletados:
+	•	Tempo para efetuar reserva (Quantidade de Clicks)
+	•	Avaliação da conclusão de tarefas (eficácia):
+		o	Tarefas sem erros
+		o	Tarefas com erros
+		o	Tarefas com erros críticos
+	•	Medir a stusfação do uso do aplicativo. (Questionário NPS)
+
+Referência:
+
+ISO/IEC 9126. Wikipedia. Disponível em: https://pt.wikipedia.org/wiki/ISO/IEC_9126 Acesso em: 30 de setembro de 2022.
