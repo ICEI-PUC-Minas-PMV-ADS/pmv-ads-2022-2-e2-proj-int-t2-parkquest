@@ -25,10 +25,11 @@ namespace ParkQuest.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("email")
+                    b.Property<string>("cpf")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("login")
+                    b.Property<string>("email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -65,23 +66,9 @@ namespace ParkQuest.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("usuarioid")
-                        .HasColumnType("int");
-
                     b.HasKey("id");
 
-                    b.HasIndex("usuarioid");
-
                     b.ToTable("Veiculos");
-                });
-
-            modelBuilder.Entity("ParkQuest.Models.Veiculo", b =>
-                {
-                    b.HasOne("Dominio.Entidades.Usuario", "usuario")
-                        .WithMany()
-                        .HasForeignKey("usuarioid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

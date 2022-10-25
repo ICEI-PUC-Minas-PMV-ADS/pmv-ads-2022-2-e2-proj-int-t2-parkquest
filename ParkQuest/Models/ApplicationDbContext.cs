@@ -12,6 +12,7 @@ namespace ParkQuest.Models
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
         {
+  
         }
 
         public DbSet<Veiculo> Veiculos { get; set; }

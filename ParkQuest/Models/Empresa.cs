@@ -2,6 +2,7 @@
 {
     public class Empresa
     {
+
         public string Nome { get; set; }
         public string CNPJ { get; set; }
         public string Responsavel { get; set; }
