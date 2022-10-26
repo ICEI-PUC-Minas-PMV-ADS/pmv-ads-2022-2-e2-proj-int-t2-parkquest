@@ -15,7 +15,7 @@ namespace ParkQuest.Models
   
         }
 
-        public DbSet<Veiculo> Veiculos { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Estacionamento> Estacionamentos { get; set; }
     }
 }
