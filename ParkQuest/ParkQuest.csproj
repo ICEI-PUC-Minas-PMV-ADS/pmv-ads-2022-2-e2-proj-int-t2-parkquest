@@ -19,6 +19,13 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\css\main.css" />
+    <Content Remove="wwwroot\img\anuncie.jpg" />
+    <Content Remove="wwwroot\img\apple-touch-icon.png" />
+    <Content Remove="wwwroot\img\autoamg.jpg" />
+    <Content Remove="wwwroot\img\esqueci.jpg" />
+    <Content Remove="wwwroot\img\estacionamento.jpg" />
+    <Content Remove="wwwroot\img\sobre.jpg" />
+    <Content Remove="wwwroot\img\team-shape.svg" />
     <Content Remove="wwwroot\js\main.js" />
     <Content Remove="wwwroot\vendor\aos\aos.css" />
     <Content Remove="wwwroot\vendor\aos\aos.js" />
@@ -85,6 +92,14 @@
 
   <ItemGroup>
     <None Include="wwwroot\css\main.css" />
+    <None Include="wwwroot\favicon.png" />
+    <None Include="wwwroot\img\anuncie.jpg" />
+    <None Include="wwwroot\img\apple-touch-icon.png" />
+    <None Include="wwwroot\img\autoamg.jpg" />
+    <None Include="wwwroot\img\esqueci.jpg" />
+    <None Include="wwwroot\img\estacionamento.jpg" />
+    <None Include="wwwroot\img\sobre.jpg" />
+    <None Include="wwwroot\img\team-shape.svg" />
     <None Include="wwwroot\js\main.js" />
     <None Include="wwwroot\vendor\aos\aos.css" />
     <None Include="wwwroot\vendor\aos\aos.js" />
