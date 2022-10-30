@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>[Template] Sample Inner Page</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+ 
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>ParkQuest<span>.com</span></h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">Sobre</a></li>
+          <li><a href="index.html#why-us">Perguntas</a></li>
+          
+          <li><a href="index.html#contact">Contato</a></li>
+           <!--
+          <li><a href="#chefs">Chefs</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#events">Eventos</a></li>
+           -->
+        </ul>
+      </nav><!-- .navbar -->
+      <a class="btn-book-a-table" href="#book-a-table">Anuncie seu empreendimento</a>
+      <a class="btn-book-a-table" href="cadastro.html">Cadastre-se</a>
+      <a class="btn-book-a-table" href="#book-a-table">Login</a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Anuncie seu empreendimento</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Anuncie</li>
+          </ol>
+        </div>
+
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <section class="sample-page">
+      <div class="container" data-aos="fade-up">
+        <section id="reserva" class="book-a-table">
+          <div class="container" data-aos="fade-up">
+            <div class="section-header">
+              <p><span>Anuncie seu Empreendimento</span></p>
+            </div>
+    
+            <div class="row g-0">
+    
+              <div class="col-lg-4 reservation-img" style="background-image: url(assets/img/anuncie.jpg);" data-aos="zoom-out" data-aos-delay="200"></div>
+    
+              <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
+                  <form action="cadastrar.asx" method="post" class="php-email-form" role="form" data-aos="fade-up" data-aos-delay="100">
+                      <div class="row gy-4">
+                          <div class="col-lg-6 col-md-6">
+                              <input type="text" name="nomeestab" class="form-control" id="nome" placeholder="Nome Estabelecimento" data-rule="minlen:4" data-msg="Por favor digite o nome de seu estabelecimento">
+                              <div class="validate"></div>
+                          </div>
+                          <div class="col-lg-6 col-md-6">
+                              <input type="text" class="form-control" name="cnpj" id="cnpj" placeholder="CNPJ" data-rule="minlen:4" data-msg="Por favor digite o CNPJ de seu estabelecimento">
+                              <div class="validate"></div>
+                          </div>
+                          <div class="col-lg-6 col-md-6">
+                              <input type="text" class="form-control" name="endereço" id="cnpj" placeholder="Endereço" data-rule="minlen:4" data-msg="Por favor digite o endereço de seu estabelecimento">
+                              <div class="validate"></div>
+                          </div>
+                          <div class="col-lg-6 col-md-6">
+                              <input type="text" class="form-control" name="cidade" id="cidade" placeholder="Cidade" data-rule="minlen:4" data-msg="Por favor digite a cidade de seu estabelecimento">
+                              <div class="validate"></div>
+                          </div>
+                          <div class="col-lg-6 col-md-6">
+                              <input type="number" class="form-control" name="qtdvagas" id="qtdvagas" placeholder="Quantidade de Vagas" data-rule="minlen:4" data-msg="Por favor digite a quantidade de vagas de seu estabelecimento">
+                              <div class="validate"></div>
+                          </div>
+                          <div class="col-lg-6 col-md-6">
+                              <input type="number" min="0.00" max="10000.00" step="0.01" class="form-control" name="valorhora" id="valorhora" placeholder="Valor por hora" data-rule="minlen:4" data-msg="Por favor digite o valor cobrado por hora">
+                              <div class="validate"></div>
+                          </div>
+                          <div class="col-lg-6 col-md-6">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" data-rule="email" data-msg="Por favor digite um e-mail valido">
+                              <div class="validate"></div>
+                          </div>
+                          <div class="col-lg-6 col-md-6">
+                              <input type="password" name="password" class="form-control" id="password" placeholder="Senha" data-rule="minlen:6" data-msg="Por favor digite uma senha de 6 dígitos">
+                              <div class="validate"></div>
+                          </div>
+                          <div class="col-lg-6 col-md-6">
+                              <input type="file" accept="image/png, image/jpeg" multiple name="fotos" class="form-control" id="fotos" placeholder="Inserir fotos" data-rule="minlen:6" data-msg="Inserir fotos de seu estabelecimento">
+                              <div class="validate"></div>
+                          </div>
+                          <div class="mb-3">
+                              <div class="loading">Carregando</div>
+                              <div class="error-message">Erro ao enviar</div>
+                              <div class="sent-message">Anúncio enviado com sucesso.</div>
+                          </div>
+                          <div class="text-center"><button type="submit">Anunciar</button></div>
+</form>
+              </div>
+    
+            </div>
+    
+          </div>
+        </section>
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+
+      <div class="container">
+        <div class="row gy-3">
+          <div class="col-lg-3 col-md-6 d-flex">
+            <i class="bi bi-geo-alt icon"></i>
+            <div>
+              <h4>Endereço</h4>
+              <p>
+                Aeroporto Internacional de Confins <br>
+                Belo Horizonte - MG - Brasil<br>
+              </p>
+            </div>
+  
+          </div>
+  
+          <div class="col-lg-3 col-md-6 footer-links d-flex">
+            <i class="bi bi-telephone icon"></i>
+            <div>
+              <h4>Reservas</h4>
+              <p>
+                <strong>Telefone:</strong> +55 31 3221 1777<br>
+                <strong>Email:</strong> info@parkquest.com<br>
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 footer-links d-flex">
+            <i class="bi bi-clock icon"></i>
+            <div>
+              <h4>Horário de Abertura</h4>
+              <p>
+                <strong>Segunda-Sábado: 07AM</strong> - 23PM<br>
+                Domingo: 09AM - 20PM
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Redes Sociais</h4>
+            <div class="social-links d-flex">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>ParkQuest</span></strong>. Todos direitos reservados.
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
+         <!--  Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
+        </div>
+      </div>
+  
+    </footer><!-- End Footer -->
+    <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
