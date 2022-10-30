@@ -30,13 +30,13 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
 
-IDEs de desenvolvimento: Visual Studio 2019;
-Linguagens utilizadas: HTML, CSS, JavaScript, C#, SqlServer;
-Frameworks: Entity;
-Ferramenta para modelagem do banco de dados: SQL Server Management Studio 18;
-Ferramenta de design: Marvel;
-Plataforma para hospedagem dos arquivos: GitHub;
-Ferramenta de divisão de tarefas: Github Project.
+- IDEs de desenvolvimento: Visual Studio 2019;
+- Linguagens utilizadas: HTML, CSS, JavaScript, C#, SqlServer;
+- Frameworks: Entity;
+- Ferramenta para modelagem do banco de dados: SQL Server Management Studio 18;
+- Ferramenta de design: Marvel;
+- Plataforma para hospedagem dos arquivos: GitHub;
+- Ferramenta de divisão de tarefas: Github Project.
 
 ## Hospedagem
 
