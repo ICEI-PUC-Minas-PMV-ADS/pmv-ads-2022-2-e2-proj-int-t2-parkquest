@@ -4,4 +4,4 @@ A construção do design a ser utilizado na aplicação ParkQuest foi feito atra
 
 ## Tela inicial 
 
-![Templatepadrao.png](img/Templatepadrao.png)
+![Template.png](img/Template.png)
