@@ -1,31 +1,41 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema.
 
-Implementação do sistema descrita por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos com os artefatos criados (código fonte), deverão apresentadas as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+Abra um navegador de Internet e informe a seguinte URL: 
 
-Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos desenvolvidos.
 
-|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
-|------|-----------------------------------------|----|
-|RF-005| A aplicação deve conter uma aba no cabeçalho "Anuncie seu empreendimento" com a funcionalidade de, ao clicar nela, abrir uma nova página com um formulário para o cadastro de novos empreendimentos. | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|RF-006| O formulário de cadastro de novos empreendimentos deve conter: nome, e-mail, celular, estado, cidade, CNPJ, endereço, quantidade de vagas, tabela de preços e fotos do local.   | relatorio.shtml |
-|RF-007| 	O administrador do estacionamento pode cadastrar, excluir, alterar e visualizar os dados do estacionamento.   | relatorio.shtml |
+## Tela Inicial (RF-01)
 
-# Instruções de acesso
+A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar seu endereço e a fim de direcionar a busca de medicamentos à Unidade Básica de Saúde mais próxima. Esta tela ainda permite que o usuário faça cadastro ou login, bem como acesso à Área do Farmacêutico. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil". Para facilidade de acesso foi incorporado a função de autocompletar o endereço enquanto o usuário digita.
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+![Inicial](img/principalautocomplete1.png)
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
+### Requisitos atendidos 
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+RF-01 -  O site deve apresentar na página principal um buscador no qual o usuário irá digitar seu endereço.
 
-No momento, a aplicação ainda encontra-se em fase inicial de desenvolvimento, portanto não há usuário de teste e link de hospedagem para a aplicação. Todos os testes foram feitos via Localhost.
+### Artefatos da funcionalidade 
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+- index.html
+- index.js
+- template.css
+- logo.png
+
+### Estrutura de Dados 
+
+        let endereco_google;
+        function initAutocomplete(){
+        endereco_google = new google.maps.places.Autocomplete(
+            document.getElementById('autocomplete'),
+            {
+                types: ['address'],
+                componentRestrictions: {'country': ['BR']},
+                fields: ['address_components']
+            })   ;
+        }
+
+
+### Instruções de acesso 
+
+A Tela Inicial é a primeira funcionalidade exibida pelo aplicativo. 
