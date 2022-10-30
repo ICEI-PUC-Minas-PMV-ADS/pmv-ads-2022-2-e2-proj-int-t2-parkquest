@@ -8,8 +8,9 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|RF-002| Emitir um relatório de tarefas no mês   | relatorio.shtml |
+|RF-005| A aplicação deve conter uma aba no cabeçalho "Anuncie seu empreendimento" com a funcionalidade de, ao clicar nela, abrir uma nova página com um formulário para o cadastro de novos empreendimentos. | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
+|RF-006| O formulário de cadastro de novos empreendimentos deve conter: nome, e-mail, celular, estado, cidade, CNPJ, endereço, quantidade de vagas, tabela de preços e fotos do local.   | relatorio.shtml |
+|RF-007| 	O administrador do estacionamento pode cadastrar, excluir, alterar e visualizar os dados do estacionamento.   | relatorio.shtml |
 
 # Instruções de acesso
 
@@ -18,6 +19,8 @@ Não deixe de informar o link onde a aplicação estiver disponível para acesso
 Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
 
 O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+
+No momento, a aplicação ainda encontra-se em fase inicial de desenvolvimento, portanto não há usuário de teste e link de hospedagem para a aplicação. Todos os testes foram feitos via Localhost.
 
 > **Links Úteis**:
 >
