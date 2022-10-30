@@ -44,13 +44,17 @@ Abaixo, listamos cada tópico referente ao Plano de Testes de Software. Uma vez 
 
 Os vídeos abaixo apresentam as funções de editar, visualizar detalhes e deletar cadastros de estacionamentos. A tela em questão ainda será aperfeiçoada pelo grupo a fim de corresponder ao template idealizado no front end. Além disso, após o desenvolvimento da função login, o usuário só poderá visualizar os estabelecimentos pertencentes à sua conta.
 
-https://user-images.githubusercontent.com/100328619/198901875-a008e1bd-9b51-4eb0-aa17-667a1947227d.mp4
+https://user-images.githubusercontent.com/100328619/198903120-dae5b69f-70a8-4a67-bcd9-0d702fa13254.mp4
 
 
-https://user-images.githubusercontent.com/100328619/198901892-d7f5deb0-bca8-4e35-96c5-80bb8a141125.mp4
+https://user-images.githubusercontent.com/100328619/198903125-7209094a-a814-413a-8f77-52e65a0cff84.mp4
 
 
-https://user-images.githubusercontent.com/100328619/198901915-4d15037d-5aa3-40db-80d6-75c1de017897.mp4
+https://user-images.githubusercontent.com/100328619/198903129-f77a4cf1-e322-4721-ac9b-ed575b0db040.mp4
+
+
+https://user-images.githubusercontent.com/100328619/198903134-554089c1-a1ab-409c-935d-4f7368b95d71.mp4
+
 
 
 | **Caso de Teste** 	| **CT-05 – Área do usuário motorista** - EM DESENVOLVIMENTO	|
