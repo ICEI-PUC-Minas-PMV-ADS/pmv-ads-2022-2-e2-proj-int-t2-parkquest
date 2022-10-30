@@ -11,6 +11,8 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
 
+Abaixo, listamos cada tópico referente ao Plano de Testes de Software. Uma vez que a aplicação encontra-se em etpa inicial de desenvolvimento, algumas das funções não foram testadas e encontram-se com a legenda "- EM DESENVOLVIMENTO". 
+
 | **Caso de Teste** 	| **CT-01 – Localização no mapa** - EM DESENVOLVIMENTO	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-01 – A aplicação deve apresentar na página principal um buscador no qual o usuário irá digitar o endereço que pretende ir e a data de entrada e de saída. RF-17 – A aplicação deve confirmar a localização do usuário no mapa|
@@ -39,6 +41,8 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 | Passos 	| 1) Acessar o Navegador 2) Informar o endereço da aplicação 3) Visualizar a página de área do empreendimento 4) Inserir um todas as informações 5) Visualizar a disponibilidade de um estabelecimento 6) Alterar a disponibilidade e as informações das vagas de um estacionamento|
 |Critério de Êxito | - A tela de área do usuário motorista deve abrir corretamente e todas as funcionalidades de gestão da reserva devem funcionar corretamente
 |  	|  	|
+
+Os vídeos abaixo apresentam as funções de editar, visualizar detalhes e deletar cadastros de estacionamentos. A tela em questão ainda será aperfeiçoada pelo grupo a fim de corresponder ao template idealizado no front end. Além disso, após o desenvolvimento da função login, o usuário só poderá visualizar os estabelecimentos pertencentes à sua conta.
 
 https://user-images.githubusercontent.com/100328619/198901875-a008e1bd-9b51-4eb0-aa17-667a1947227d.mp4
 
@@ -78,10 +82,13 @@ https://user-images.githubusercontent.com/100328619/198901915-4d15037d-5aa3-40db
 |Critério de Êxito | - O anuncio  foi realizado com sucesso. |
 |  	|  	|
 
+As imagens abaixo apresentam o template da tela "Anuncie seu empreendimento", tela a qual os usuários administradores de estacionamentos irão cadastrar seus estabelecimentos.
+
 ![image](https://user-images.githubusercontent.com/100328619/198901502-16994454-790b-4849-ae7f-8121ca562375.png)
 
 ![image](https://user-images.githubusercontent.com/100328619/198901561-23109385-a41b-4dbb-a71d-306cc42313a0.png)
 
+O vídeo abaixo demostra o processo de cadastro de um estacionamento. A tela em questão ainda será aperfeiçoada pelo grupo a fim de corresponder totalemnte ao template idealizado no front end.
 
 https://user-images.githubusercontent.com/100328619/198901689-2f84683d-488a-448a-995a-28aea074d5e9.mp4
 
