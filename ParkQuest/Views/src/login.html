@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>[Template] Sample Inner Page</title>
+  <title>Login</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -28,6 +28,12 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <!-- =======================================================
+  * Template Name: Yummy - v1.2.1
+  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
@@ -91,10 +97,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Anuncie seu empreendimento</h2>
+          <h2>Login</h2>
           <ol>
-            <li><a href="index.html">Login</a></li>
-            <li>Esqueci a senha</li>
+            <li><a href="index.html">Home</a></li>
+            <li>Login</li>
           </ol>
         </div>
 
@@ -102,40 +108,46 @@
     </div><!-- End Breadcrumbs -->
 
     <section class="sample-page">
-      <div class="container" data-aos="fade-up">
-        <section id="reserva" class="book-a-table">
-          <div class="container" data-aos="fade-up">
-            <div class="section-header">
-              <p><span>Esqueci a senha</span></p>
-            </div>
-    
-            <div class="row g-0">
-    
-              <div class="col-lg-4 reservation-img" style="background-image: url(assets/img/esqueci.jpg);" data-aos="zoom-out" data-aos-delay="200"></div>
-    
-              <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
-                  <form action="cadastrar.asx" method="post" class="php-email-form" role="form" data-aos="fade-up" data-aos-delay="100">
-                      <div class="row gy-4">
-                          <div class="col-lg-6 col-md-6">
-                              <input type="text" name="novasenha" class="form-control" id="novasenha" placeholder="Nova Senha" data-rule="minlen:4" data-msg="Por favor digite sua nova senha">
-                              <div class="validate"></div>
-                          </div>  
-                          <div class="mb-3">
-                              <div class="loading">Carregando</div>
-                              <div class="error-message">Erro ao enviar</div>
-                              <div class="sent-message">Anúncio enviado com sucesso.</div>
-                          </div>
-                          <div class="text-center"><button type="submit">Alterar</button></div>
-</form>
+        <div class="container" data-aos="fade-up">
+          <section id="reserva" class="book-a-table">
+            <div class="container" data-aos="fade-up">
+              <div class="section-header">
+                <p><span>Login</span></p>
               </div>
-    
+      
+              <div class="row g-0 justify-content-center">
+                <div class="col-8 d-flex justify-content-center reservation-form-bg">
+                  <form action="logar.asx" method="post" class="php-email-form" role="form"  data-aos="fade-up" data-aos-delay="100">
+                    <div class="row gy-3 justify-content-center">
+                      <div class="col-10 align-items-center">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" data-rule="email" data-msg="Por favor digite um e-mail valido">
+                        <div class="validate"></div>
+                      </div>
+                    
+                      <div class="col-10 align-items-center">
+                        <input type="password" name="password" class="form-control" id="password" placeholder="Senha" data-rule="minlen:6" data-msg="Por favor digite uma senha de 6 dígitos">
+                        <div class="validate"></div>
+                      </div>
+                      <div class="d-flex justify-content-center">
+                        <a href="esqueci.html" class="esqueci-senha">Esqueci minha senha</a>    
+                      </div>
+                    <div class="mb-1">
+                      <div class="loading">Carregando</div>
+                      <div class="error-message">Erro ao enviar</div>
+                      <div class="sent-message">Cadastro enviado com sucesso.</div>
+                    </div>
+                </div>
+                    <div class="text-center"><button type="submit">Logar</button></div>
+                  </form>
+                </div>
+      
+              </div>
+      
             </div>
-    
-          </div>
-        </section>
-
-      </div>
-    </section>
+          </section>
+  
+        </div>
+      </section>
 
   </main><!-- End #main -->
 

@@ -1523,6 +1523,13 @@ section {
   background: #ec2727;
 }
 
+.esqueci-senha {
+  font-size: 12px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration-line: underline
+}
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1705,3 +1712,25 @@ section {
 .footer .credits a {
   color: #fff;
 }
+<<<<<<< HEAD:src/assets/css/main.css
+
+#btn-submit-reserva {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 36px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: var(--color-primary);
+  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
+
+}
+
+#btn-submit-reserva:focus:hover {
+  color: #fff;
+  background: rgba(206, 18, 18, 0.8);
+}
+=======
+>>>>>>> dev:ParkQuest/wwwroot/css/main.css
