@@ -11,7 +11,7 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
 
-Abaixo, listamos cada tópico referente ao Plano de Testes de Software. Uma vez que a aplicação encontra-se em etpa inicial de desenvolvimento, algumas das funções não foram testadas e encontram-se com a legenda "- EM DESENVOLVIMENTO". 
+Abaixo, listamos cada tópico referente ao Plano de Testes de Software. Uma vez que a aplicação encontra-se em etapa inicial de desenvolvimento, algumas das funções não foram testadas e encontram-se com a legenda "- EM DESENVOLVIMENTO". 
 
 | **Caso de Teste** 	| **CT-01 – Localização no mapa** - EM DESENVOLVIMENTO	|
 |:---:	|:---:	|
