@@ -41,7 +41,7 @@ RF-01 -  O site deve apresentar na página principal um buscador no qual o usuá
 A Tela Inicial é a primeira funcionalidade exibida pelo aplicativo. 
 
 
-## Anuncie seu empreendimento (RF-01)
+## Anuncie seu empreendimento (RF-05, 06)
 
 
 A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar seu endereço e a fim de direcionar a busca de medicamentos à Unidade Básica de Saúde mais próxima. Esta tela ainda permite que o usuário faça cadastro ou login, bem como acesso à Área do Farmacêutico. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil". Para facilidade de acesso foi incorporado a função de autocompletar o endereço enquanto o usuário digita.
@@ -50,7 +50,8 @@ A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual 
 
 ### Requisitos atendidos 
 
-RF-01 -  O site deve apresentar na página principal um buscador no qual o usuário irá digitar seu endereço.
+RF-05 -  A aplicação deve conter uma aba no cabeçalho "Anuncie seu empreendimento" com a funcionalidade de, ao clicar nela, abrir uma nova página com um formulário para o cadastro de novos empreendimentos.
+RF - 06 - O formulário de cadastro de novos empreendimentos deve conter: nome, e-mail, celular, estado, cidade, CNPJ, endereço, quantidade de vagas, tabela de preços e fotos do local.
 
 ### Artefatos da funcionalidade 
 
