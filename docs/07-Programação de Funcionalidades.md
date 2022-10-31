@@ -29,9 +29,9 @@ A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual 
 ### Estrutura de Dados 
 
         namespace ParkQuest.Controllers
-{
-public class UsuarioController : Controller
-  {
+        {
+        public class UsuarioController : Controller
+        {
         private readonly ApplicationDbContext _context;
         
         public UsuarioController(ApplicationDbContext context)
@@ -94,10 +94,9 @@ A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual 
 ### Estrutura de Dados 
 
        namespace ParkQuest.Controllers
-{
-    public class EstacionamentoController : Controller
-   
-   {
+       {
+       public class EstacionamentoController : Controller
+       {
         private readonly ApplicationDbContext _context;
 
         public EstacionamentoController(ApplicationDbContext context)
