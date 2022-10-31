@@ -30,11 +30,9 @@ A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual 
 
         namespace ParkQuest.Controllers
 {
-    public class UsuarioController : Controller
-  
+public class UsuarioController : Controller
   {
         private readonly ApplicationDbContext _context;
-
         public UsuarioController(ApplicationDbContext context)
         {
             _context = context;
