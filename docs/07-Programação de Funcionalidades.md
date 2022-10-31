@@ -9,7 +9,7 @@ Abra um navegador de Internet e informe a seguinte URL:
 
 A Tela Inicial do sistema apresenta o cadastro de usuários, com os campos que devem ser preenchidos obrigatóriamente: nome, e-mail, senha e CPF. Sendo que nele possui a função de Create, Edit, Details e Delete. Para quaisquer tipos de alterações das informações, no banco de dados do SQL Server.
 
-![Inicial](img/principalautocomplete1.png)
+![image](https://user-images.githubusercontent.com/103009155/198911635-ef3f39e0-7556-49e7-afde-7195ddae75cc.png)
 
 ### Requisitos atendidos 
 
@@ -86,7 +86,7 @@ A Tela Inicial é a primeira funcionalidade exibida pelo aplicativo.
 
 A Tela Inicial do sistema apresenta o cadastro de estacionamentos, com os campos que devem ser preenchidos obrigatoriamente: nome estabelecimento, endereço, quantidade de vagas, e-mail, CNPJ, cidade, valor por hora e senha. Sendo que nele possui a função de Create, Edit, Details e Delete. Para quaisquer tipos de alterações das informações, no banco de dados do SQL Server.
 
-![Inicial](img/principalautocomplete1.png)
+![image](https://user-images.githubusercontent.com/103009155/198911707-d8c27573-858a-41a6-a3ea-38b966423104.png)
 
 ### Requisitos atendidos 
 
