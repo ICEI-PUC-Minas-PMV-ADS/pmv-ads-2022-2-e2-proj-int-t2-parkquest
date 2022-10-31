@@ -5,7 +5,7 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 Abra um navegador de Internet e informe a seguinte URL: 
 
 
-## Cadastre-se (RF-01)
+## Cadastre-se (RF-03/ RFN-01,02,03,04)
 
 A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar seu endereço e a fim de direcionar a busca de medicamentos à Unidade Básica de Saúde mais próxima. Esta tela ainda permite que o usuário faça cadastro ou login, bem como acesso à Área do Farmacêutico. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil". Para facilidade de acesso foi incorporado a função de autocompletar o endereço enquanto o usuário digita.
 
@@ -13,7 +13,11 @@ A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual 
 
 ### Requisitos atendidos 
 
-- RF-01 -  O site deve apresentar na página principal um buscador no qual o usuário irá digitar seu endereço.
+RNF-03 - A aplicação deverá ter uma página de cadastro do motorista, com os campos, nome, e-mail, senha, cadastro e CPF. 
+RNF-01 - A aplicação deve ser publicada em um ambiente acessível publicamente na Internet.	
+RNF-02 - A aplicação deve ser responsiva, permitindo a visualização em um celular, desktop, tablet de forma adequada.	
+RNF-03 - A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).	
+RNF-04 - O desenvolvimento deve ser em HTML, CSS, Javascript, BD SQL, C# podendo utilizar frameworks.	
 
 ### Artefatos da funcionalidade 
 
@@ -21,46 +25,19 @@ A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual 
 - template.html
 - main.js
 - main.css
-- Usuario.cs
-- UsuarioController.cs
-- ApplicationDbContext.cs
 
 
 ### Estrutura de Dados 
 
-        namespace ParkQuest.Controllers
-        {
-        public class UsuarioController : Controller
-        {
-        private readonly ApplicationDbContext _context;
-        
-        public UsuarioController(ApplicationDbContext context)
-        {
-            _context = context;
-        }
-
-        // GET: Usuario
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Usuarios.ToListAsync());
-        }
-
-        // GET: Usuario/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
+        let endereco_google;
+        function initAutocomplete(){
+        endereco_google = new google.maps.places.Autocomplete(
+            document.getElementById('autocomplete'),
             {
-                return NotFound();
-            }
-
-            var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.id == id);
-            if (usuario == null)
-            {
-                return NotFound();
-            }
-
-            return View(usuario);
+                types: ['address'],
+                componentRestrictions: {'country': ['BR']},
+                fields: ['address_components']
+            })   ;
         }
 
 
@@ -69,7 +46,7 @@ A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual 
 A Tela Inicial é a primeira funcionalidade exibida pelo aplicativo. 
 
 
-## Anuncie seu empreendimento (RF-05, 06)
+## Anuncie seu empreendimento (RF-05,06/ RFN-01,02,03,04)
 
 
 A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual o usuário deverá digitar seu endereço e a fim de direcionar a busca de medicamentos à Unidade Básica de Saúde mais próxima. Esta tela ainda permite que o usuário faça cadastro ou login, bem como acesso à Área do Farmacêutico. Também dispõe dos icones "sobre" e "como funciona o medicamento fácil". Para facilidade de acesso foi incorporado a função de autocompletar o endereço enquanto o usuário digita.
@@ -78,8 +55,12 @@ A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual 
 
 ### Requisitos atendidos 
 
-- RF-05 -  A aplicação deve conter uma aba no cabeçalho "Anuncie seu empreendimento" com a funcionalidade de, ao clicar nela, abrir uma nova página com um formulário para o cadastro de novos empreendimentos.
-- RF - 06 - O formulário de cadastro de novos empreendimentos deve conter: nome, e-mail, celular, estado, cidade, CNPJ, endereço, quantidade de vagas, tabela de preços e fotos do local.
+RF-05 -  A aplicação deve conter uma aba no cabeçalho "Anuncie seu empreendimento" com a funcionalidade de, ao clicar nela, abrir uma nova página com um formulário para o cadastro de novos empreendimentos.
+RF - 06 - O formulário de cadastro de novos empreendimentos deve conter: nome, e-mail, celular, estado, cidade, CNPJ, endereço, quantidade de vagas, tabela de preços e fotos do local.
+RNF-01 - A aplicação deve ser publicada em um ambiente acessível publicamente na Internet.	
+RNF-02 - A aplicação deve ser responsiva, permitindo a visualização em um celular, desktop, tablet de forma adequada.	
+RNF-03 - A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).	
+RNF-04 - O desenvolvimento deve ser em HTML, CSS, Javascript, BD SQL, C# podendo utilizar frameworks.	
 
 ### Artefatos da funcionalidade 
 
@@ -87,45 +68,18 @@ A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual 
 - template.html
 - main.js
 - main.css
-- Estacionamento.cs
-- EstacionamentoController.cs
-- ApplicationDbContext.cs
 
 ### Estrutura de Dados 
 
-       namespace ParkQuest.Controllers
-       {
-       public class EstacionamentoController : Controller
-       {
-        private readonly ApplicationDbContext _context;
-
-        public EstacionamentoController(ApplicationDbContext context)
-        {
-            _context = context;
-        }
-
-        // GET: Estacionamento
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Estacionamentos.ToListAsync());
-        }
-
-        // GET: Estacionamento/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
+        let endereco_google;
+        function initAutocomplete(){
+        endereco_google = new google.maps.places.Autocomplete(
+            document.getElementById('autocomplete'),
             {
-                return NotFound();
-            }
-
-            var estacionamento = await _context.Estacionamentos
-                .FirstOrDefaultAsync(m => m.id == id);
-            if (estacionamento == null)
-            {
-                return NotFound();
-            }
-
-            return View(estacionamento);
+                types: ['address'],
+                componentRestrictions: {'country': ['BR']},
+                fields: ['address_components']
+            })   ;
         }
 
 
