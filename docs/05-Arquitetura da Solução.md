@@ -40,4 +40,6 @@ Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, 
 
 ## Hospedagem
 
-A hospedagem será pela Microsoft Azure, disponilizado para os alunos da PUC. Sendo que terá o GitHub Pages como ambiente de hospedagem do site do projeto, disponibilizado gratuitamente pelo próprio github.
+https://parkquest20221030220308.azurewebsites.net/
+
+
