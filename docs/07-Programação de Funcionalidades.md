@@ -79,7 +79,8 @@ A Tela Inicial do sistema apresenta o cadastro de usuários, com os campos que d
 
 ### Instruções de acesso 
 
-A Tela Inicial é a primeira funcionalidade exibida pelo aplicativo. 
+
+Para efetuar o cadastro, o usuário deverá clicar no botão anuncie seu empreendimento na tela principal.
 
 
 ## Anuncie seu empreendimento (RF-05,06/ RFN-01,02,03,04)
@@ -157,5 +158,5 @@ A Tela Inicial do sistema apresenta o cadastro de estacionamentos, com os campos
 
 ### Instruções de acesso 
 
-A Tela Inicial é a primeira funcionalidade exibida pelo aplicativo. 
+Para efetuar o cadastro do empreendimento, o usuário deverá clicar no botão anuncie seu empreendimento na tela principal.
 
