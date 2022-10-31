@@ -20,7 +20,7 @@ RF-01 -  O site deve apresentar na página principal um buscador no qual o usuá
 - cadastro.html
 - template.html
 - main.js
-- template.css
+- main.css
 
 
 ### Estrutura de Dados 
@@ -59,7 +59,7 @@ RF - 06 - O formulário de cadastro de novos empreendimentos deve conter: nome, 
 - anuncie.html
 - template.html
 - main.js
-- template.css
+- main.css
 
 ### Estrutura de Dados 
 
