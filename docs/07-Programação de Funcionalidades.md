@@ -2,7 +2,7 @@
 
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema.
 
-Abra um navegador de Internet e informe a seguinte URL: 
+Abra um navegador de Internet e informe a seguinte URL: https://parkquest20221030220308.azurewebsites.net/
 
 
 ## Cadastre-se (RF-03/ RFN-01,02,03,04)
