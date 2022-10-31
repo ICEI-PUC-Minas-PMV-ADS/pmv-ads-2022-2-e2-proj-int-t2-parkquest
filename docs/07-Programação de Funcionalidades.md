@@ -33,6 +33,7 @@ A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual 
 public class UsuarioController : Controller
   {
         private readonly ApplicationDbContext _context;
+        
         public UsuarioController(ApplicationDbContext context)
         {
             _context = context;
