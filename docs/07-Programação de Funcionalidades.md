@@ -13,7 +13,7 @@ A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual 
 
 ### Requisitos atendidos 
 
-RF-01 -  O site deve apresentar na página principal um buscador no qual o usuário irá digitar seu endereço.
+- RF-01 -  O site deve apresentar na página principal um buscador no qual o usuário irá digitar seu endereço.
 
 ### Artefatos da funcionalidade 
 
@@ -21,19 +21,46 @@ RF-01 -  O site deve apresentar na página principal um buscador no qual o usuá
 - template.html
 - main.js
 - main.css
+- Usuario.cs
+- UsuarioController.cs
+- ApplicationDbContext.cs
 
 
 ### Estrutura de Dados 
 
-        let endereco_google;
-        function initAutocomplete(){
-        endereco_google = new google.maps.places.Autocomplete(
-            document.getElementById('autocomplete'),
+        namespace ParkQuest.Controllers
+{
+    public class UsuarioController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public UsuarioController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        // GET: Usuario
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Usuarios.ToListAsync());
+        }
+
+        // GET: Usuario/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
             {
-                types: ['address'],
-                componentRestrictions: {'country': ['BR']},
-                fields: ['address_components']
-            })   ;
+                return NotFound();
+            }
+
+            var usuario = await _context.Usuarios
+                .FirstOrDefaultAsync(m => m.id == id);
+            if (usuario == null)
+            {
+                return NotFound();
+            }
+
+            return View(usuario);
         }
 
 
@@ -51,8 +78,8 @@ A Tela Inicial do sistema apresenta apresenta um buscador centralizado, no qual 
 
 ### Requisitos atendidos 
 
-RF-05 -  A aplicação deve conter uma aba no cabeçalho "Anuncie seu empreendimento" com a funcionalidade de, ao clicar nela, abrir uma nova página com um formulário para o cadastro de novos empreendimentos.
-RF - 06 - O formulário de cadastro de novos empreendimentos deve conter: nome, e-mail, celular, estado, cidade, CNPJ, endereço, quantidade de vagas, tabela de preços e fotos do local.
+- RF-05 -  A aplicação deve conter uma aba no cabeçalho "Anuncie seu empreendimento" com a funcionalidade de, ao clicar nela, abrir uma nova página com um formulário para o cadastro de novos empreendimentos.
+- RF - 06 - O formulário de cadastro de novos empreendimentos deve conter: nome, e-mail, celular, estado, cidade, CNPJ, endereço, quantidade de vagas, tabela de preços e fotos do local.
 
 ### Artefatos da funcionalidade 
 
@@ -60,18 +87,45 @@ RF - 06 - O formulário de cadastro de novos empreendimentos deve conter: nome, 
 - template.html
 - main.js
 - main.css
+- Estacionamento.cs
+- EstacionamentoController.cs
+- ApplicationDbContext.cs
 
 ### Estrutura de Dados 
 
-        let endereco_google;
-        function initAutocomplete(){
-        endereco_google = new google.maps.places.Autocomplete(
-            document.getElementById('autocomplete'),
+       namespace ParkQuest.Controllers
+{
+    public class EstacionamentoController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public EstacionamentoController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        // GET: Estacionamento
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Estacionamentos.ToListAsync());
+        }
+
+        // GET: Estacionamento/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
             {
-                types: ['address'],
-                componentRestrictions: {'country': ['BR']},
-                fields: ['address_components']
-            })   ;
+                return NotFound();
+            }
+
+            var estacionamento = await _context.Estacionamentos
+                .FirstOrDefaultAsync(m => m.id == id);
+            if (estacionamento == null)
+            {
+                return NotFound();
+            }
+
+            return View(estacionamento);
         }
 
 
