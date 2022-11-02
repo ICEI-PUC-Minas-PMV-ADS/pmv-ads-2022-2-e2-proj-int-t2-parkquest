@@ -1,4 +1,4 @@
-﻿{
+{
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
@@ -12,6 +12,8 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
+        "VaultUri": "https://parkquestvault1.vault.azure.net/",
+        "AZURE_USERNAME": "1396945@sga.pucminas.br",
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
       }
@@ -19,11 +21,16 @@
     "ParkQuest": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
+        "VaultUri": "https://parkquestvault1.vault.azure.net/",
+        "AZURE_USERNAME": "1396945@sga.pucminas.br",
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
-      }
+      },
+      "sqlDebugging": false,
+      "nativeDebugging": false,
+      "applicationUrl": "https://localhost:5001;http://localhost:5000;https://parkquest20221030220308.azurewebsites.net/",
+      "jsWebView2Debugging": true
     }
   }
 }

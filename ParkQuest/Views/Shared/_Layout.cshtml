@@ -9,40 +9,39 @@
 
     <title>@ViewData["Title"] - ParkQuest</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link href="~/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="~/vendor/aos/aos.css" rel="stylesheet">
-    <link href="~/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="~/vendor/swiper-bundle.min.css" rel="stylesheet">
-
+    <!-- <link href="~/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="~/vendor/aos/aos.css" rel="stylesheet">
+        <link href="~/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="~/vendor/swiper-bundle.min.css" rel="stylesheet">
+    -->
     <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="stylesheet" href="~/css/main.css" />
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ParkQuest</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Usuario" asp-action="Index">Usuario</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Estacionamento" asp-action="Index">Estacionamento</a>
-                        </li>
-                    </ul>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <div class="container">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ParkQuest</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Usuario" asp-action="Index">Usuario</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Estacionamento" asp-action="Index">Estacionamento</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <!-- ======= Header ======= -->
+            </nav>
+        </header>
+        <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
 
@@ -54,7 +53,7 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="#hero" >Home</a></li>
+                    <li><a href="#hero">Home</a></li>
                     <li><a href="#about">Sobre</a></li>
                     <li><a href="#why-us">Perguntas</a></li>
 
@@ -148,18 +147,18 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     <!-- Vendor JS Files -->
+    <!--
     <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="~/vendor/aos/aos.js"></script>
     <script src="~/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="~/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="~/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="~/vendor/php-email-form/validate.js"></script>
-
-
+    -->
     <!-- Template Main JS File -->
-    <script src="~/js/main.js"></script>
+    <!-- <script src="~/js/main.js"></script> -->
 
 
     @RenderSection("Scripts", required: false)
-</body>
+    </body>
 </html>
