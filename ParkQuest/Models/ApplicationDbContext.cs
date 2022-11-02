@@ -9,10 +9,20 @@ namespace ParkQuest.Models
 {
     public class ApplicationDbContext : DbContext
     {
-
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
+        public ApplicationDbContext()
         {
-  
+
+        }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        {
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Data Source = tcp:parkquestdbserver.database.windows.net, 1433; Initial Catalog = ParkQuest_db; User Id = herbertnordson@parkquestdbserver; Password = puc@eixo2!");
+            }
         }
 
         public DbSet<Usuario> Usuarios { get; set; }

@@ -30,15 +30,16 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+- IDEs de desenvolvimento: Visual Studio 2019;
+- Linguagens utilizadas: HTML, CSS, JavaScript, C#, SqlServer;
+- Frameworks: Entity;
+- Ferramenta para modelagem do banco de dados: SQL Server Management Studio 18;
+- Ferramenta de design: Marvel;
+- Plataforma para hospedagem dos arquivos: GitHub;
+- Ferramenta de divisão de tarefas: Github Project.
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+https://parkquest20221030220308.azurewebsites.net/
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+

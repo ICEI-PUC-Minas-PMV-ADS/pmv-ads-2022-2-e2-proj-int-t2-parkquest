@@ -1,12 +1,11 @@
 # Template Padrão da Aplicação
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+A construção do design a ser utilizado na aplicação ParkQuest foi feito através do Marvel e tem como base o protótipo e o projeto de interface já apresentados. Para permitir a responsividade do layout foram utilizadas estruturas do Bootstrap.
 
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+## Informações sobre o template padrão
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+O template padrão possui o logo ParkQuest.com no canto superior esquerdo, logo em seguida aparecem os botões que identificam a aplicação, sendo eles, Home, Sobre, Perguntas e contato. Em destaque aparecem os botões em vermelho: Anuncie seu empreendimento, cadastre-se e Login, indicando o fluxo da aplicação, em que novos usuários devem realizar o cadastro e os usuários que já possuem conta devem efetuar o login.
+
+O rodapé da página apresenta as informações da empresa, sendo elas o Endereço, as informações de contato o horário de abertura e as redes sociais.
+
+![Template.png](img/Template.png)

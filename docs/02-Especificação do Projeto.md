@@ -98,7 +98,7 @@ A tabela a seguir apresenta os requisitos funcionais do projeto, identificando s
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve apresentar um filtro na tela inicial com Local e Data de Entrada e Saída com título "Qual será sua próxima parada?" | ALTA | 
 |RF-002| A aplicação deve apresentar na tela inicial um ícone de perfil para fazer login, onde o usuário irá preencher os dados de “E-mail” e “Senha” cadastrados. Caso o usuário esteja logado, apresentar o nome do usuário junto ao ícone. | ALTA |
-|RF-003| A aplicação deve apresentar imagens que auxiliem o entendimento do leitor para cada assunto exposto no corpo da página. | MÉDIA |
+|RF-003| A aplicação deverá ter uma página de cadastro do motorista, com os campos, nome, e-mail, senha, cadastro e CPF. | ALTA |
 |RF-004| A aplicação deve apresentar no rodapé um link para os contatos do site contendo telefone, Whatsapp, Instagram e e-mail. | MÉDIA |
 |RF-005| A aplicação deve conter uma aba no cabeçalho "Anuncie seu empreendimento" com a funcionalidade de, ao clicar nela, abrir uma nova página com um formulário para o cadastro de novos empreendimentos. | ALTA |
 |RF-006| O formulário de cadastro de novos empreendimentos deve conter: nome, e-mail, celular, estado, cidade, CNPJ, endereço, quantidade de vagas, tabela de preços e fotos do local. | ALTA |
