@@ -4,40 +4,69 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<main id="main">
 
-<h4>Usuario</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="nome" class="control-label"></label>
-                <input asp-for="nome" class="form-control" />
-                <span asp-validation-for="nome" class="text-danger"></span>
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+        <div class="container">
+
+            <div class="d-flex justify-content-between align-items-center">
+                <h2>Cadastro</h2>
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li>Cadastro</li>
+                </ol>
             </div>
-            <div class="form-group">
-                <label asp-for="senha" class="control-label"></label>
-                <input asp-for="senha" class="form-control" />
-                <span asp-validation-for="senha" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="email" class="control-label"></label>
-                <input asp-for="email" class="form-control" />
-                <span asp-validation-for="email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="cpf" class="control-label"></label>
-                <input asp-for="cpf" class="form-control" />
-                <span asp-validation-for="cpf" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+
+        </div>
+    </div><!-- End Breadcrumbs -->
+
+    <section class="sample-page">
+        <div class="container" data-aos="fade-up">
+            <section id="reserva" class="book-a-table">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-header">
+                        <p><span>Cadastro de Usuário</span></p>
+                    </div>
+
+                    <div class="row d-flex justify-content-center">
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <form asp-action="Create">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <div class="form-group">
+                                        <input asp-for="nome" class="form-control" placeholder="Nome"/>
+                                        <span asp-validation-for="nome" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input asp-for="email" class="form-control" placeholder="E-mail"/>
+                                        <span asp-validation-for="email" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input asp-for="cpf" class="form-control" placeholder="CPF"/>
+                                        <span asp-validation-for="cpf" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input asp-for="senha" class="form-control" placeholder="Senha"/>
+                                        <span asp-validation-for="senha" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" value="Create" class="btn btn-primary" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+</main><!-- End #main -->
 
 <div>
     <a asp-action="Index">Back to List</a>
