@@ -3,65 +3,112 @@
 @{
     ViewData["Title"] = "Create";
 }
+<main id="main">
 
-<h1>Create</h1>
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+        <div class="container">
 
-<h4>Estacionamento</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="nome" class="control-label"></label>
-                <input asp-for="nome" class="form-control" />
-                <span asp-validation-for="nome" class="text-danger"></span>
+            <div class="d-flex justify-content-between align-items-center">
+                <h2>Anuncie seu empreendimento</h2>
+                <ol>
+                    <li><a  asp-area="" asp-controller="Home" asp-action="Index">Login</a></li>
+                    <li>Anuncie seu empreendimento</li>
+                </ol>
             </div>
-            <div class="form-group">
-                <label asp-for="endereco" class="control-label"></label>
-                <input asp-for="endereco" class="form-control" />
-                <span asp-validation-for="endereco" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="vagas" class="control-label"></label>
-                <input asp-for="vagas" class="form-control" />
-                <span asp-validation-for="vagas" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="email" class="control-label"></label>
-                <input asp-for="email" class="form-control" />
-                <span asp-validation-for="email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="cnpj" class="control-label"></label>
-                <input asp-for="cnpj" class="form-control" />
-                <span asp-validation-for="cnpj" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="cidade" class="control-label"></label>
-                <input asp-for="cidade" class="form-control" />
-                <span asp-validation-for="cidade" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="valor" class="control-label"></label>
-                <input asp-for="valor" class="form-control" />
-                <span asp-validation-for="valor" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="senha" class="control-label"></label>
-                <input asp-for="senha" class="form-control" />
-                <span asp-validation-for="senha" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+
+        </div>
+    </div><!-- End Breadcrumbs -->
+
+    <section class="sample-page">
+        <div class="container" data-aos="fade-up">
+            <section id="reserva" class="book-a-table">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-header">
+                        <p><span>Anuncie seu empreendimento</span></p>
+                    </div>
+                    <div class="row g-0">
+
+                        <div class="col-lg-6 reservation-img" data-aos="zoom-out" data-aos-delay="200">
+                            <img src="~/img/sobre.jpg" alt="sobre" style="width: fit-content"/>
+                        </div>
+
+                        <div class="col-lg-6 d-flex align-items-center reservation-form-bg justify-content-center">
+                            <form asp-action="Create">
+
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="form-group">
+                                    <label asp-for="nome" class="control-label"></label>
+                                    <input asp-for="nome" class="form-control" />
+                                    <span asp-validation-for="nome" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="endereco" class="control-label"></label>
+                                    <input asp-for="endereco" class="form-control" />
+                                    <span asp-validation-for="endereco" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="vagas" class="control-label"></label>
+                                    <input asp-for="vagas" class="form-control" />
+                                    <span asp-validation-for="vagas" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="email" class="control-label"></label>
+                                    <input asp-for="email" class="form-control" />
+                                    <span asp-validation-for="email" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="cnpj" class="control-label"></label>
+                                    <input asp-for="cnpj" class="form-control" />
+                                    <span asp-validation-for="cnpj" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="cidade" class="control-label"></label>
+                                    <input asp-for="cidade" class="form-control" />
+                                    <span asp-validation-for="cidade" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="valor" class="control-label"></label>
+                                    <input asp-for="valor" class="form-control" />
+                                    <span asp-validation-for="valor" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="senha" class="control-label"></label>
+                                    <input asp-for="senha" class="form-control" />
+                                    <span asp-validation-for="senha" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Create" class="btn btn-primary" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <div>
+        <a asp-action="Index">Back to List</a>
     </div>
-</div>
+</main>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+<!-- Vendor JS Files -->
+<script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/vendor/aos/aos.js"></script>
+<script src="~/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="~/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="~/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="~/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="~/js/main.js"></script>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

@@ -9,12 +9,13 @@
 
     <title>@ViewData["Title"] - ParkQuest</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <!-- <link href="~/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-        <link href="~/vendor/aos/aos.css" rel="stylesheet">
-        <link href="~/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-        <link href="~/vendor/swiper-bundle.min.css" rel="stylesheet">
-    -->
+    <link href="~/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/vendor/swiper-bundle.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/main.css" />
 </head>
     <body>
         <header>
@@ -45,7 +46,7 @@
     <header id="header" class="header fixed-top d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+            <a asp-area="" asp-controller="Home" asp-action="Index" class="logo d-flex align-items-center me-auto me-lg-0">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
                 <h1>ParkQuest<span>.com</span></h1>
@@ -53,16 +54,16 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="#hero">Home</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a href="#about">Sobre</a></li>
                     <li><a href="#why-us">Perguntas</a></li>
 
                     <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav><!-- .navbar -->
-            <a class="btn-book-a-table" asp-area="" asp-controller="Home" asp-action="Index">Anuncie seu empreendimento</a>
-            <a class="btn-book-a-table" asp-area="" asp-controller="Estacionamento" asp-action="Create">Cadastre-se</a>
-            <a class="btn-book-a-table" asp-area="" asp-controller="Usuario" asp-action="Index">Login</a>
+            <a class="btn-book-a-table" asp-area="" asp-controller="Estacionamento" asp-action="Create">Anuncie seu empreendimento</a>
+            <a class="btn-book-a-table" asp-area="" asp-controller="Usuario" asp-action="Create">Cadastre-se</a>
+            <a class="btn-book-a-table" >Login</a>
             <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
             <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
@@ -147,16 +148,15 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     <!-- Vendor JS Files -->
-    <!--
     <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="~/vendor/aos/aos.js"></script>
     <script src="~/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="~/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="~/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="~/vendor/php-email-form/validate.js"></script>
-    -->
+   
     <!-- Template Main JS File -->
-    <!-- <script src="~/js/main.js"></script> -->
+    <script src="~/js/main.js"></script>
 
 
     @RenderSection("Scripts", required: false)
