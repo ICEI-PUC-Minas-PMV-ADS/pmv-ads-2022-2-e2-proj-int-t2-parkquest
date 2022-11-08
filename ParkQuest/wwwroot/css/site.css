@@ -14,9 +14,9 @@ a {
 
 .btn-primary {
     color: #fff;
-    background-color: var(--color-primary);
-    border-color: var(--color-primary);
-    width: 100%;
+    background-color: #ce1212 !important;
+    border-color: #ce1212 !important;
+    width: 100% !important;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
