@@ -1,0 +1,102 @@
+﻿@model Dominio.Entidades.Acesso
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+        <div class="container">
+
+            <div class="d-flex justify-content-between align-items-center">
+                <h2>Login</h2>
+                <ol>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li>Login</li>
+                </ol>
+            </div>
+
+        </div>
+    </div><!-- End Breadcrumbs -->
+
+    <section class="sample-page">
+        <div class="container" data-aos="fade-up">
+            <section id="reserva" class="book-a-table">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-header">
+                        <p><span>Login</span></p>
+                    </div>
+
+                    <div class="row g-0 justify-content-center">
+
+                        <div class="col-8 d-flex justify-content-center reservation-form-bg">
+                            <form action="logar.asx" method="post" class="php-email-form" role="form" data-aos="fade-up" data-aos-delay="100">
+                                <div class="row gy-3 justify-content-center">
+                                    <div class="col-10 align-items-center">
+                                        <div class="form-group">
+                                            <input asp-for="email" class="form-control" placeholder="E-mail" type="email" name="email" id="email" />
+                                            <span asp-validation-for="email" class="text-danger" data-rule="email" data-msg="Por favor digite um e-mail valido"></span>
+                                            <div class="validate"></div>
+
+                                            <div class="col-10 align-items-center">
+                                                <div class="form-group">
+                                                    <input asp-for="senha" class="form-control" placeholder="Senha" type="password" name="password" id="password" />
+                                                    <span asp-validation-for="email" class="text-danger" data-rule="minlen:6" data-msg="Por favor digite uma senha de 6 dígitos"></span>
+                                                    <div class="validate"></div>
+
+
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="esqueci.html" class="esqueci-senha">Esqueci minha senha</a>
+                                                    </div>
+
+                                                    <div class="mb-1">
+                                                        <div class="loading">Carregando</div>
+                                                        <div class="error-message">Erro ao enviar</div>
+                                                        <div class="sent-message">Cadastro enviado com sucesso.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="text-center"><button type="submit">Logar</button></div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+</main>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+<!-- Vendor JS Files -->
+<script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/vendor/aos/aos.js"></script>
+<script src="~/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="~/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="~/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="~/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="~/js/main.js"></script>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

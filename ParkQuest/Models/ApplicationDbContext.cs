@@ -27,5 +27,6 @@ namespace ParkQuest.Models
 
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Estacionamento> Estacionamentos { get; set; }
+        public DbSet<Acesso> Acessos { get; set; }
     }
 }
