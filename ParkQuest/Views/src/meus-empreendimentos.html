@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Minha Reserva</title>
+    <title>Meus Empreendimentos</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -98,10 +98,10 @@
             <div class="container">
 
                 <div class="d-flex justify-content-between align-items-center">
-                    <h2>Minhas Reservas</h2>
+                    <h2>Meus Empreendimentos</h2>
                     <ol>
                         <li><a href="index.html">Home</a></li>
-                        <li>Minhas Reservas</li>
+                        <li>Meus Empreendimentos</li>
                     </ol>
                 </div>
 
@@ -111,41 +111,46 @@
         <section>
             <div class="d-flex flex-row flex-wrap mx-auto" style="width: 85%;">
                 <div class="col-12 px-3">
-                    <a class="btn btn-primary" href="reserva.html">Nova reserva</a>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#modalNovoEstacionamento" id="cadastrar_novo_estacionamento">Novo
+                        empreendimento</button>
+
                 </div>
-                <div class="col-sm-12 col-md-6 p-3" >
+                <div class="col-sm-12 col-md-6 p-3">
                     <div class="px-3" id="format_box_info">
-                        <h4 class="mt-3 text-center">Reserva: <span id="numero_reserva_01">${nro_reserva_01}</span></h4>
-                        <p class="mt-4">Data de entrada: <span id="data_entrada_01">${data_entrada_01}</span></p>
-                        <p>Custo total: <span id="custo_total_01">${custo_total_01}</span></p>
-                        <p>Estacionamento: <span id="nome_estacionamento_01">${nome_estacionamento_01}</span></p>
+                        <h4 class="mt-3 text-center">Estacionamento: <span
+                                id="nome_estacionamento_01">${nome_estacionamento_01}</span></h4>
+                        <p class="mt-4">Custo por hora: <span id="custo_hora_01">${custo_hora_01}</span></p>
+                        <p>Número de vagas: <span id="nro_vagas_01">${nro_vagas_01}</span></p>
                         <p>Endereço: <span id="endereco_estacionamento_01">${endereco_estacionamento_01}</span></p>
                         <p>Cidade: <span id="endereco_cidade_01">${endereco_cidade_01}</span></p>
                         <div class="m-2" style="text-align:right">
-                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalEditarReserva"
-                             id="editar_reserva_1" >Editar</button>
-                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalCancelarReserva"
-                             id="cancelar_reserva_1" >Cancelar</button>
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#modalEditarEstacionamento" id="editar_estacionamento_1">Editar</button>
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#modalCancelarEstacionamento"
+                                id="cancelar_estacionamento_1">Cancelar</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 p-3" >
+                <div class="col-sm-12 col-md-6 p-3">
                     <div class="px-3" id="format_box_info">
-                        <h4 class="mt-3 text-center">Reserva: <span id="numero_reserva_02">${nro_reserva_02}</span></h4>
-                        <p class="mt-4">Data de entrada: <span id="data_entrada_02">${data_entrada_02}</span></p>
-                        <p>Custo total: <span id="custo_total_02">${custo_total_02}</span></p>
-                        <p>Estacionamento: <span id="nome_estacionamento_02">${nome_estacionamento_02}</span></p>
+                        <h4 class="mt-3 text-center">Estacionamento: <span
+                                id="nome_estacionamento_02">${nome_estacionamento_02}</span></h4>
+                        <p class="mt-4">Custo por hora: <span id="custo_hora_02">${custo_hora_02}</span></p>
+                        <p>Número de vagas: <span id="nro_vagas_02">${nro_vagas_02}</span></p>
                         <p>Endereço: <span id="endereco_estacionamento_02">${endereco_estacionamento_02}</span></p>
-                        <p>Cidade: <span id="endereco_cidade_02">${endereco_cidade_01}</span></p>
+                        <p>Cidade: <span id="endereco_cidade_02">${endereco_cidade_02}</span></p>
                         <div class="m-2" style="text-align:right">
-                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalEditarReserva"
-                             id="editar_reserva_2" >Editar</button>
-                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalCancelarReserva"
-                             id="cancelar_reserva_2" >Cancelar</button>
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                                data-bs-target="#modalEditarEstacionamento" id="editar_estacionamento_2">Editar</button>
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#modalCancelarEstacionamento"
+                                id="cancelar_estacionamento_2">Cancelar</button>
                         </div>
                     </div>
                 </div>
-            
+
         </section>
 
     </main><!-- End #main -->
@@ -218,82 +223,130 @@
     </footer><!-- End Footer -->
     <!-- End Footer -->
 
- <!-- Início Modal Cancelar Reserva-->
-<div class="modal fade" id="modalCancelarReserva" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalCancelarReservaLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title" id="modalCancelarReservaLabel">Cancelamento de Reserva</h4>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+
+
+    <!-- Início Modal Cancelar Estacionamento-->
+    <div class="modal fade" id="modalCancelarEstacionamento" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="modalCancelarEstacionamentoLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalCancelarEstacionamentoLabel">Cancelamento de Estacionamento</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Você realmente deseja cancelar este Estacionamento?
+                    <p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger"
+                        onclick="cancelar_estacionamento(${id_estacionamento})">Cancelar</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-          <p>Você realmente deseja cancelar sua reserva?<p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-danger" onclick="cancelar_reserva(${id_reserva})">Cancelar</button>
-        </div>
-      </div>
     </div>
-  </div>  
-<!--Fim Modal Cancelar Reserva-->
+    <!--Fim Modal Cancelar Estacionamento-->
 
- <!-- Início Modal Editar Reserva-->
- <div class="modal fade" id="modalEditarReserva" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalEditarReservaLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title" id="modalEditarReservaLabel">Editar Reserva</h4>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!-- Início Modal Editar Estacionamento-->
+    <div class="modal fade" id="modalEditarEstacionamento" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="modalEditarEstacionamentoLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalEditarEstacionamentoLabel">Editar Estacionamento</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="col-12  reservation-form-bg">
+                        <form action="editar_estacionamento.asx" method="post" class="php-email-form d-block"
+                            role="form" data-aos="fade-up" data-aos-delay="100">
+                            <div class="col-12 mb-2">
+                                <label>Custo por hora: <textarea name="custoHora" style="height: 24px;"
+                                        id="custoHora_modal" cols="20" rows="1">R$ ${custo_hora}</textarea></label>
+                            </div>
+                            <div class="col-12 mb-2">
+                                <label>Número de vagas: <textarea name="nroVagas" style="height: 24px;"
+                                        id="nro_vagas_modal" cols="20" rows="1">${nro_vagas}</textarea></label>
+                            </div>
+
+                            <div class="col-12 mb-2">
+                                <div class="mb-2 d-inline">
+                                    <p class="d-inline"> Endereço: <span
+                                            id="endereco_estacionamento_modal">${endereco_estacionamento</span></p>
+                                </div>
+                                <div class="mb-2">
+                                    <p class="d-inline"> Cidade: <span id="custo_total_modal">R$ ${custo_total}</span>
+                                    </p>
+
+                                </div>
+                            </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger"
+                            onclick="editar_estacionamento(${id_estacionamento})">Editar</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-            <div class="col-12  reservation-form-bg">
-                <form action="reserva.asx" method="post" class="php-email-form d-block" role="form"
-                    data-aos="fade-up" data-aos-delay="100">
-                    <div class="col-12 mb-2 align-self-center">
-                        <label for="data_entrada">Data de entrada:</label>
-                        <input type="date" id="data_entrada_modal" name="data_entrada">
-                    </div>
-                    <div class="col-12 mb-2">
-                        <div class="d-inline">
-                            <p class="d-inline"> Horário de chegada</p>
-                            <input type="time" id="hora_chegada_modal" name="hora_chegada" class="d-inline"
-                                min="00:00" max="24:00" required>
-                        </div>
-                    </div>
-                    <div class="col-12 mb-2">
-                        <label for="data_saida">Data de saída:</label>
-                        <input type="date" id="data_saida_modal" name="data_saida">
-                    </div>
-                    <div class="col-12 mb-2">
-                        <div class="d-inline">
-                            <p class="d-inline"> Horário de saída</p>
-                            <input type="time" id="hora_saida_modal" name="hora_saida" class="d-inline"
-                                min="00:00" max="24:00" required>
-                        </div>
-                    </div>
-                    <div class="col-12 mb-2">
-                        <div class="mb-2 d-inline">
-                            <p class="d-inline"> Custo horário: <span id="custo_horario">R$ ${custo_horario}</span></p>   
-                        </div>
-                        <div class="mb-2">
-                            <p class="d-inline"> Custo total: <span id="custo_total">R$ ${custo_total}</span></p>
-                            
-                        </div>
-                    </div>
-               
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-danger" onclick="editar_reserva(${id_reserva})">Editar</button>
-        </div>
-    </form>
-      </div>
     </div>
-  </div>  
-<!--Fim Modal Editar Reserva-->
+    <!--Fim Modal Editar Estacionamento-->
 
+    <!-- Início Modal Novo Estacionamento-->
+    <div class="modal fade" id="modalNovoEstacionamento" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="modalNovoEstacionamentoLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalNovoEstacionamentoLabel">Novo Estacionamento</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="col-12  reservation-form-bg">
+                        <form action="novo_estacionamento.asx" method="post" class="php-email-form d-block" role="form"
+                            data-aos="fade-up" data-aos-delay="100">
+                            <div class="col-12 mb-4">
+                                <label>Nome do Estacionamento: <textarea  style="height: 24px;" name="nomeEstacionamento" id="nome_estacionamento_novo_modal" cols="20"
+                                        rows="1"></textarea></label>
+                            </div>
+                            <div class="col-12 mb-4">
+                                <label>Custo por hora: <textarea  style="height: 24px;" name="custoHora" id="custoHora_novo_modal" cols="20"
+                                        rows="1"></textarea></label>
+                            </div>
+                            <div class="col-12 mb-4">
+                                <label>Número de vagas: <textarea style="height: 24px;" name="nroVagas" id="nro_vagas_novo_modal" cols="20"
+                                        rows="1"></textarea></label>
+                            </div>
 
+                            <div class="col-12 mb-4">
+                                <div class="mb-2 d-inline">
+                                    <p class="d-inline"> Endereço: <textarea style="height: 24px;" name="endereco_estacionamento" id="endereco_novo_modal" cols="20"
+                                        rows="1"></textarea></p>
+                                </div>    
+                            </div>
+                            <div class="col-12 mb-4">
+                                <div class="mb-4">
+                                    <p class="d-inline"> Cidade: <textarea style="height: 24px;" name="cidade_estacionamento" id="cidade_novo_modal" cols="20"
+                                        rows="1"></textarea></p>
+                                </div>
+                            </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger" onclick="novo_estacionamento()">Editar</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fim Modal Novo Estacionamento-->
 
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
