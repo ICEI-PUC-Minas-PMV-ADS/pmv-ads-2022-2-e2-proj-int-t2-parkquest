@@ -1702,3 +1702,12 @@ section {
 .footer .credits a {
   color: #fff;
 }
+/*--------------------------------------------------------------
+# Formatação minha reserva e meus empreendimentos
+--------------------------------------------------------------*/
+#format_box_info {
+  box-sizing:border-box;
+  border: 1px solid #21252980;
+  box-shadow: 1px 1px #37373f84;
+  border-radius: 4px;
+}
