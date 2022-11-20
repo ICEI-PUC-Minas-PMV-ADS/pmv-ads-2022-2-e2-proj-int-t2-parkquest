@@ -1,0 +1,56 @@
+.mapa{
+    position: relative;
+    height: 60%;
+    width: 70%;    
+    left: 15%;
+    top: 10%;
+}
+
+/*///// ESTRUTURA //////*/
+
+body.ativar-rolamento {
+    overflow-y: visible;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+  
+}
+
+header, footer {
+    height: 15vh;
+}
+
+header {
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+footer {
+    align-items: flex-end;
+}
+
+main {
+    height: 70vh;
+}
+
+body.ativar-rolamento main {
+    height: auto;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+
+body.ativar-rolamento footer,
+body.ativar-rolamento header {
+    position: fixed;
+    z-index: 99;
+    right: 0;
+    left: 0;
+}
+
+body.ativar-rolamento footer {
+    bottom: 0px;
+}
