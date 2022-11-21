@@ -2420,9 +2420,10 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+    color: #fff;
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    width: 100%;
 }
 
 .btn-primary:hover {

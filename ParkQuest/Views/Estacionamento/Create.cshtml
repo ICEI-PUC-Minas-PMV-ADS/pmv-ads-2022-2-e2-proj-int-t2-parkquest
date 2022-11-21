@@ -12,7 +12,7 @@
             <div class="d-flex justify-content-between align-items-center">
                 <h2>Anuncie seu empreendimento</h2>
                 <ol>
-                    <li><a  asp-area="" asp-controller="Home" asp-action="Index">Login</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li>Anuncie seu empreendimento</li>
                 </ol>
             </div>
@@ -25,12 +25,12 @@
             <section id="reserva" class="book-a-table">
                 <div class="container" data-aos="fade-up">
                     <div class="section-header">
-                        <p><span>Anuncie seu empreendimento</span></p>
+                        <p><span>Anuncie Seu Empreendimento</span></p>
                     </div>
                     <div class="row g-0">
 
-                        <div class="col-lg-6 reservation-img" data-aos="zoom-out" data-aos-delay="200">
-                            <img src="~/img/sobre.jpg" alt="sobre" style="width: fit-content"/>
+                        <div class="col-lg-6 reservation-img d-flex flex-column justify-content-center" data-aos="zoom-out" data-aos-delay="200">
+                            <img src="~/img/estacionamento.jpg" alt="sobre" style="width: 100%" />
                         </div>
 
                         <div class="col-lg-6 d-flex align-items-center reservation-form-bg justify-content-center">
@@ -38,47 +38,39 @@
 
                                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                 <div class="form-group">
-                                    <label asp-for="nome" class="control-label"></label>
-                                    <input asp-for="nome" class="form-control" />
+                                    <input asp-for="nome" class="form-control" placeholder="Nome do Estabelecimento" />
                                     <span asp-validation-for="nome" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="endereco" class="control-label"></label>
-                                    <input asp-for="endereco" class="form-control" />
+                                    <input asp-for="endereco" class="form-control"  placeholder="Endereço" />
                                     <span asp-validation-for="endereco" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="vagas" class="control-label"></label>
-                                    <input asp-for="vagas" class="form-control" />
-                                    <span asp-validation-for="vagas" class="text-danger"></span>
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="email" class="control-label"></label>
-                                    <input asp-for="email" class="form-control" />
-                                    <span asp-validation-for="email" class="text-danger"></span>
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="cnpj" class="control-label"></label>
-                                    <input asp-for="cnpj" class="form-control" />
-                                    <span asp-validation-for="cnpj" class="text-danger"></span>
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="cidade" class="control-label"></label>
-                                    <input asp-for="cidade" class="form-control" />
+                                    <input asp-for="cidade" class="form-control"  placeholder="Cidade" />
                                     <span asp-validation-for="cidade" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="valor" class="control-label"></label>
-                                    <input asp-for="valor" class="form-control" />
+                                    <input asp-for="vagas" class="form-control"  placeholder="Quantidade de Vagas" />
+                                    <span asp-validation-for="vagas" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input asp-for="email" class="form-control"  placeholder="E-mail" />
+                                    <span asp-validation-for="email" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input asp-for="cnpj" class="form-control"  placeholder="CNPJ" />
+                                    <span asp-validation-for="cnpj" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input asp-for="valor" class="form-control"  placeholder="Valor por Hora" />
                                     <span asp-validation-for="valor" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="senha" class="control-label"></label>
-                                    <input asp-for="senha" class="form-control" />
+                                    <input asp-for="senha" class="form-control"  placeholder="Senha" />
                                     <span asp-validation-for="senha" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <input type="submit" value="Create" class="btn btn-primary" />
+                                    <input type="submit" value="Create" class="btn btn-primary" style="background-color: #ce1212; border-color: #ce1212; width: 100%;" />
                                 </div>
                             </form>
                         </div>
