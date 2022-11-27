@@ -227,3 +227,27 @@ A aplicação deverá ter a localização precisa no com o local que o usuário 
 O usuário motorista deverá clicar no botão reservar na página principal, ele será redirecionado para a página pesquisar endereço, em que deverá digitar o endereço que pretende ir e apertar o botão confirmar, após isso a página do mapa será aberta e o usuário deverá verificar se a localização no mapa está correta, ele poderá confirmar o endereço e ir para a página de reserva ou buscar novamente, para alterar o endereço buscado. 
 
 
+## Esqueci a Senha e Alterar a Senha (RF-/ RFN-)
+Caso o usuário esqueça a senha, ele poderá alterar a senha cadastrada na aplicação.
+![image](img/esqueciasenha.png)
+![image](img/alterarsenha.png)
+
+### Requisitos atendidos 
+- RF-14 Na página de Login, deve possuir um link com a opção de “Esqueci a senha”, caso o usuário precise criar uma nova senha.
+- RF-15 Na página de “Esqueci minha senha”, o usuário irá preencher o e-mail cadastrado. Caso esse e-mail não esteja na lista de cadastros, deverá ser exibida uma mensagem informando que o e-mail não está no cadastro.
+- RF-16 Na página de “Esqueci minha senha”, caso o e-mail esteja cadastrado, haverá a opção do usuário criar uma nova senha. Se a senha for válida.
+- RNF-01 - A aplicação deve ser publicada em um ambiente acessível publicamente na Internet.
+- RNF-02 - A aplicação deve ser responsiva, permitindo a visualização em um celular, desktop, tablet de forma adequada.
+- RNF-03 - A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).
+- RNF-04 - O desenvolvimento deve ser em HTML, CSS, Javascript, BD SQL, C# podendo utilizar frameworks.
+
+### Artefatos da funcionalidade 
+
+- esqueciasenha.html
+- alterarsenha.html
+
+### Estrutura de Dados
+
+### Instruções de acesso 
+Caso o usuário esqueça a senha, ele poderá clicar no botão esqueci a senha na página de login, ele será encaminhado para a página esqueci a senha em que deverá digitar o e-mail cadastrado e será encaminhado para a página para realizar a alteração da senha.
+
