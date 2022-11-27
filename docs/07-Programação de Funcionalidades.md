@@ -184,6 +184,7 @@ A aplicação deverá ter a localização precisa no com o local que o usuário 
 - pesquisarendereco.js
 - index.css
 - main.js
+- main.css
 
 ### Estrutura de Dados
 
@@ -251,3 +252,27 @@ Caso o usuário esqueça a senha, ele poderá alterar a senha cadastrada na apli
 ### Instruções de acesso 
 Caso o usuário esqueça a senha, ele poderá clicar no botão esqueci a senha na página de login, ele será encaminhado para a página esqueci a senha em que deverá digitar o e-mail cadastrado e será encaminhado para a página para realizar a alteração da senha.
 
+## Reserva (RF-10,11,12 / RFN-01,02,03,04)
+O usuário poderá reservar uma vaga de estacionamento, no estacionamento mais próximo da localização desejada, por tempo determinado.
+
+![image](reservar/mapa.png)
+
+### Requisitos atendidos 
+- RF-10 - Após o usuário informar a localização que pretende ir deverá ser encaminhado para a página de reserva, em que deverá informar e data de entrada e saída, a aplicação deve apresentar a funcionalidade de mostrar as informações em lista com os estacionamentos, disponibilidade, preço.
+- RF-11 - A aplicação deve conter um botão para o usuário selecionar o estacionamento desejado, e quando acionado deverá apresentar uma página com fotos do local, endereço, disponibilidade, descrição, preço e o botão reservar.
+- RF-12 - A aplicação deve permitir que no fechamento da reserva o usuário confirme os dados da reserva e finalize.
+- RNF-01 - A aplicação deve ser publicada em um ambiente acessível publicamente na Internet.
+- RNF-02 - A aplicação deve ser responsiva, permitindo a visualização em um celular, desktop, tablet de forma adequada.
+- RNF-03 - A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).
+- RNF-04 - O desenvolvimento deve ser em HTML, CSS, Javascript, BD SQL, C# podendo utilizar frameworks.
+
+### Artefatos da funcionalidade 
+
+- reserva.html
+- main.js
+- main.css
+
+### Estrutura de Dados
+
+### Instruções de acesso
+Para efetuar a reserva, após efetuar o login, o usuário deverá clicar no botão Reservar, na pagina inicial, digitar o endereço que pretende ir, confirmar a localização no mapa e preencher os campos entrada/saída e os respectivos horários, marcar o estacionamento desejado e apertar o botão reservar.
