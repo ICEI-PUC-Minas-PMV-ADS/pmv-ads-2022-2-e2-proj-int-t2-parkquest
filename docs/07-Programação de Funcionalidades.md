@@ -276,3 +276,29 @@ O usuário poderá reservar uma vaga de estacionamento, no estacionamento mais p
 
 ### Instruções de acesso
 Para efetuar a reserva, após efetuar o login, o usuário deverá clicar no botão Reservar, na pagina inicial, digitar o endereço que pretende ir, confirmar a localização no mapa e preencher os campos entrada/saída e os respectivos horários, marcar o estacionamento desejado e apertar o botão reservar.
+
+## Login (RF-02,14/ RFN-01,02,03,04)
+O usuário poderá efetuar o login com o e-mail e a senha informados quando ele efetuou o cadastro.
+![image](img/login.png)
+
+### Requisitos atendidos 
+- RF-02 - A aplicação deve apresentar na tela inicial um ícone de perfil para fazer login, onde o usuário irá preencher os dados de “E-mail” e “Senha” cadastrados. Caso o usuário esteja logado, apresentar o nome do usuário junto ao ícone. 
+- RF-14 - Na página de Login, deve possuir um link com a opção de “Esqueci a senha”, caso o usuário precise criar uma nova senha. 
+- RNF-01 - A aplicação deve ser publicada em um ambiente acessível publicamente na Internet.
+- RNF-02 - A aplicação deve ser responsiva, permitindo a visualização em um celular, desktop, tablet de forma adequada.
+- RNF-03 - A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).
+- RNF-04 - O desenvolvimento deve ser em HTML, CSS, Javascript, BD SQL, C# podendo utilizar frameworks.
+
+### Artefatos da funcionalidade 
+
+- login.html
+- main.js
+- main.css
+- Usuario.cs
+- UsuarioController.cs
+- ApplicationDbContext.cs
+
+### Estrutura de Dados
+
+### Instruções de acesso 
+Para efetuar o login, o usuário deverá clicar no botão login, na página inicial e preencher os campos login e senha, e apertar o botão confirmar, caso não saiba a senha poderá apertar o campo esqueci minha senha, para ser redirecionado para a página de alteração da senha cadastrada.
