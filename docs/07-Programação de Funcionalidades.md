@@ -255,7 +255,7 @@ Caso o usuário esqueça a senha, ele poderá clicar no botão esqueci a senha n
 ## Reserva (RF-10,11,12 / RFN-01,02,03,04)
 O usuário poderá reservar uma vaga de estacionamento, no estacionamento mais próximo da localização desejada, por tempo determinado.
 
-![image](reservar/mapa.png)
+![image](img/reservar.png)
 
 ### Requisitos atendidos 
 - RF-10 - Após o usuário informar a localização que pretende ir deverá ser encaminhado para a página de reserva, em que deverá informar e data de entrada e saída, a aplicação deve apresentar a funcionalidade de mostrar as informações em lista com os estacionamentos, disponibilidade, preço.
