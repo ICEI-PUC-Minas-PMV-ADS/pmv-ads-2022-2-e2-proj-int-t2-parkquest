@@ -279,6 +279,7 @@ Para efetuar a reserva, após efetuar o login, o usuário deverá clicar no bot�
 
 ## Login (RF-02,14/ RFN-01,02,03,04)
 O usuário poderá efetuar o login com o e-mail e a senha informados quando ele efetuou o cadastro.
+
 ![image](img/login.png)
 
 ### Requisitos atendidos 
