@@ -160,15 +160,15 @@ A Tela Inicial do sistema apresenta o cadastro de estacionamentos, com os campos
 
 Para efetuar o cadastro do empreendimento, o usuário deverá clicar no botão anuncie seu empreendimento na tela principal.
 
-## Buscar Endereço, Mapa e API Mapa (RF-/ RFN-)
+## Buscar Endereço, Mapa e API Mapa (RF-09,17/ RFN-01,02,03,04)
 Na tela buscar endereço o usuário poderá digitar o endereço que pretende ir e confirmar a localização no mapa, para poder visualizar os estacionamentos disponíveis na proximidade.
-![image](pesquisarendereço.png)
-![image](mapa.png)
+![image](img/pesquisarendereço.png)
+![image](img/mapa.png)
 
 ### Requisitos atendidos 
 A aplicação deverá ter a localização precisa no com o local que o usuário motorista pretende ir.
-- RF-17 A aplicação deve ter um campo em que o usuário motorista vai preencher com o endereço que pretende ir.
 - RF-09 A aplicação deverá ter a localização precisa no mapa com o local que o usuário motorista pretende ir.
+- RF-17 A aplicação deve ter um campo em que o usuário motorista vai preencher com o endereço que pretende ir.
 
 ### Artefatos da funcionalidade 
 - pesquisarendereco.html
