@@ -13,7 +13,7 @@ A Tela Inicial do sistema apresenta o cadastro de usuários, com os campos que d
 
 ### Requisitos atendidos 
 
-- RF-03 - A aplicação deverá ter uma página de cadastro do motorista, com os campos, nome, e-mail, senha, cadastro e CPF. | ALTA |-
+- RF-03 - A aplicação deverá ter uma página de cadastro do motorista, com os campos, nome, e-mail, senha, cadastro e CPF.
 - RNF-03 - A aplicação deverá ter uma página de cadastro do motorista, com os campos, nome, e-mail, senha, cadastro e CPF. 
 - RNF-01 - A aplicação deve ser publicada em um ambiente acessível publicamente na Internet.	
 - RNF-02 - A aplicação deve ser responsiva, permitindo a visualização em um celular, desktop, tablet de forma adequada.	
