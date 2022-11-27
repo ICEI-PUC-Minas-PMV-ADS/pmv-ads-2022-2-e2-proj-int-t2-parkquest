@@ -306,18 +306,18 @@ O usuário poderá efetuar o login com o e-mail e a senha informados quando ele 
 
 ### Estrutura de Dados
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using Dominio.Entidades;
-using ParkQuest.Models;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.AspNetCore.Mvc.Rendering;
+    using Microsoft.EntityFrameworkCore;
+    using Dominio.Entidades;
+    using ParkQuest.Models;
 
-namespace ParkQuest.Controllers
-{
+    namespace ParkQuest.Controllers
+    {
     public class AcessoController : Controller
     {
         private readonly ApplicationDbContext _context;
