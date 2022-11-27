@@ -13,6 +13,7 @@ A Tela Inicial do sistema apresenta o cadastro de usuários, com os campos que d
 
 ### Requisitos atendidos 
 
+- RF-03 - A aplicação deverá ter uma página de cadastro do motorista, com os campos, nome, e-mail, senha, cadastro e CPF. | ALTA |-
 - RNF-03 - A aplicação deverá ter uma página de cadastro do motorista, com os campos, nome, e-mail, senha, cadastro e CPF. 
 - RNF-01 - A aplicação deve ser publicada em um ambiente acessível publicamente na Internet.	
 - RNF-02 - A aplicação deve ser responsiva, permitindo a visualização em um celular, desktop, tablet de forma adequada.	
@@ -160,15 +161,16 @@ A Tela Inicial do sistema apresenta o cadastro de estacionamentos, com os campos
 
 Para efetuar o cadastro do empreendimento, o usuário deverá clicar no botão anuncie seu empreendimento na tela principal.
 
-## Buscar Endereço, Mapa e API Mapa (RF-09,17/ RFN-01,02,03,04)
+## Buscar Endereço, Mapa e API Mapa (RF-09,1017/ RFN-01,02,03,04)
 Na tela buscar endereço o usuário poderá digitar o endereço que pretende ir e confirmar a localização no mapa, para poder visualizar os estacionamentos disponíveis na proximidade.
 ![image](img/pesquisarendereço.png)
 ![image](img/mapa.png)
 
 ### Requisitos atendidos 
 A aplicação deverá ter a localização precisa no com o local que o usuário motorista pretende ir.
-- RF-09 A aplicação deverá ter a localização precisa no mapa com o local que o usuário motorista pretende ir.
-- RF-17 A aplicação deve ter um campo em que o usuário motorista vai preencher com o endereço que pretende ir.
+- RF-09 - A aplicação deverá ter a localização precisa no mapa com o local que o usuário motorista pretende ir.
+- RF-10 - Após o usuário informar a localização que pretende ir deverá ser encaminhado para a página de reserva, em que deverá informar e data de entrada e saída, a aplicação deve apresentar a funcionalidade de mostrar as informações em lista com os estacionamentos, disponibilidade, 
+- RF-17 - A aplicação deve ter um campo em que o usuário motorista vai preencher com o endereço que pretende ir.
 - RNF-01 - A aplicação deve ser publicada em um ambiente acessível publicamente na Internet.
 - RNF-02 - A aplicação deve ser responsiva, permitindo a visualização em um celular, desktop, tablet de forma adequada.
 - RNF-03 - A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).
@@ -234,9 +236,9 @@ Caso o usuário esqueça a senha, ele poderá alterar a senha cadastrada na apli
 ![image](img/alterarsenha.png)
 
 ### Requisitos atendidos 
-- RF-14 Na página de Login, deve possuir um link com a opção de “Esqueci a senha”, caso o usuário precise criar uma nova senha.
-- RF-15 Na página de “Esqueci minha senha”, o usuário irá preencher o e-mail cadastrado. Caso esse e-mail não esteja na lista de cadastros, deverá ser exibida uma mensagem informando que o e-mail não está no cadastro.
-- RF-16 Na página de “Esqueci minha senha”, caso o e-mail esteja cadastrado, haverá a opção do usuário criar uma nova senha. Se a senha for válida.
+- RF-14 - Na página de Login, deve possuir um link com a opção de “Esqueci a senha”, caso o usuário precise criar uma nova senha.
+- RF-15 - Na página de “Esqueci minha senha”, o usuário irá preencher o e-mail cadastrado. Caso esse e-mail não esteja na lista de cadastros, deverá ser exibida uma mensagem informando que o e-mail não está no cadastro.
+- RF-16 - Na página de “Esqueci minha senha”, caso o e-mail esteja cadastrado, haverá a opção do usuário criar uma nova senha. Se a senha for válida.
 - RNF-01 - A aplicação deve ser publicada em um ambiente acessível publicamente na Internet.
 - RNF-02 - A aplicação deve ser responsiva, permitindo a visualização em um celular, desktop, tablet de forma adequada.
 - RNF-03 - A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).
