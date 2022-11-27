@@ -169,6 +169,11 @@ Na tela buscar endereço o usuário poderá digitar o endereço que pretende ir 
 A aplicação deverá ter a localização precisa no com o local que o usuário motorista pretende ir.
 - RF-09 A aplicação deverá ter a localização precisa no mapa com o local que o usuário motorista pretende ir.
 - RF-17 A aplicação deve ter um campo em que o usuário motorista vai preencher com o endereço que pretende ir.
+- RNF-01 - A aplicação deve ser publicada em um ambiente acessível publicamente na Internet.
+- RNF-02 - A aplicação deve ser responsiva, permitindo a visualização em um celular, desktop, tablet de forma adequada.
+- RNF-03 - A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).
+- RNF-04 - O desenvolvimento deve ser em HTML, CSS, Javascript, BD SQL, C# podendo utilizar frameworks.
+
 
 ### Artefatos da funcionalidade 
 - pesquisarendereco.html
