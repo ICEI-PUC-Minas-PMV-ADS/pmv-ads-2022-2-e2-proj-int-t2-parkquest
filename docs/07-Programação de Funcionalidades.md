@@ -306,5 +306,50 @@ O usuário poderá efetuar o login com o e-mail e a senha informados quando ele 
 
 ### Estrutura de Dados
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using Dominio.Entidades;
+using ParkQuest.Models;
+
+namespace ParkQuest.Controllers
+{
+    public class AcessoController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public AcessoController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        // GET: Acesso
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Acessos.ToListAsync());
+        }
+
+        // GET: Acesso/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var acesso = await _context.Acessos
+                .FirstOrDefaultAsync(m => m.id == id);
+            if (acesso == null)
+            {
+                return NotFound();
+            }
+
+            return View(acesso);
+        }
+
 ### Instruções de acesso 
 Para efetuar o login, o usuário deverá clicar no botão login, na página inicial e preencher os campos login e senha, e apertar o botão confirmar, caso não saiba a senha poderá apertar o campo esqueci minha senha, para ser redirecionado para a página de alteração da senha cadastrada.
