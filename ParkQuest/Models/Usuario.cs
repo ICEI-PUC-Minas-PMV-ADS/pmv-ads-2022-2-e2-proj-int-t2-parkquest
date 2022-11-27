@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Dominio.Entidades
@@ -20,6 +21,8 @@ namespace Dominio.Entidades
         public string cpf { get; set; }
 
         public Usuario () { }
+
+        public ICollection<Acesso> Acessos { get; set; }
 
         public Usuario(string nome, string senha, string email, string cpf)
         {

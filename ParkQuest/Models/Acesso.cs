@@ -21,6 +21,11 @@ namespace Dominio.Entidades
             this.email = email;
             this.senha = senha;
         }
+
+        public int usuarioID { get; set; }
+        [ForeignKey("usuarioID")]
+
+        public Usuario Usuario { get; set; }
     }
 }
 

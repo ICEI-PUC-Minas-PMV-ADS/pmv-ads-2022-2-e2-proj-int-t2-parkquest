@@ -48,7 +48,7 @@ namespace ParkQuest.Controllers
         // GET: Reserve/Create
         public IActionResult Create()
         {
-            ViewData["EstacionamentoID"] = new SelectList(_context.Estacionamentos, "id", "cidade");
+            ViewData["EstacionamentoID"] = new SelectList(_context.Estacionamentos, "id", "nome");
             return View();
         }
 
