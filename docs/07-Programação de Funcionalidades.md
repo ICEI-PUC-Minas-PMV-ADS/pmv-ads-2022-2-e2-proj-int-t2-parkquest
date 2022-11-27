@@ -160,3 +160,65 @@ A Tela Inicial do sistema apresenta o cadastro de estacionamentos, com os campos
 
 Para efetuar o cadastro do empreendimento, o usuário deverá clicar no botão anuncie seu empreendimento na tela principal.
 
+## Buscar Endereço, Mapa e API Mapa (RF-/ RFN-)
+Na tela buscar endereço o usuário poderá digitar o endereço que pretende ir e confirmar a localização no mapa, para poder visualizar os estacionamentos disponíveis na proximidade.
+![image](pesquisarendereço.png)
+![image](mapa.png)
+
+### Requisitos atendidos 
+A aplicação deverá ter a localização precisa no com o local que o usuário motorista pretende ir.
+- RF-17 A aplicação deve ter um campo em que o usuário motorista vai preencher com o endereço que pretende ir.
+- RF-09 A aplicação deverá ter a localização precisa no mapa com o local que o usuário motorista pretende ir.
+
+### Artefatos da funcionalidade 
+- pesquisarendereco.html
+- mapa.html
+- mapa.js
+- mapa.css
+- pesquisarendereco.css
+- pesquisarendereco.js
+- index.css
+- main.js
+
+### Estrutura de Dados
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzAA6TeMnG_qi6_mu0KyMVD63tH05mtjw&libraries=places&callback=initAutocomplete"
+    async defer></script>
+	<script src="./assets/js/index.js"></script>
+
+    function iniciarMapa() {
+        mapa = new google.maps.Map(itemMapa, {
+            center: coordenadas,
+            zoom: 4,});
+            geocoder = new google.maps.Geocoder();
+        window.onload = geocodeAddress(geocoder);
+               
+    }
+
+    function geocodeAddress(geocoder) {
+        let seminterrogacao = valor.replace ("?","");
+        geocoder.geocode({'address': seminterrogacao}, function(results, status) 
+        {
+          if (status === 'OK') {
+              mapa.setCenter(results[0].geometry.location);
+              mapa.setZoom(16);
+              marker = new google.maps.Marker({
+              map: mapa,
+              position: results[0].geometry.location
+            });
+              
+          } else {
+            alert('Algo deu errado: ' + status + ' Tente Novamente!');
+            window.location.href = "index.html";
+          }
+          sessionStorage.setItem('localizacao-usuario', results[0].geometry.location);               
+        });
+      }
+
+    window.initMap = iniciarMapa;
+
+### Instruções de acesso 
+
+O usuário motorista deverá clicar no botão reservar na página principal, ele será redirecionado para a página pesquisar endereço, em que deverá digitar o endereço que pretende ir e apertar o botão confirmar, após isso a página do mapa será aberta e o usuário deverá verificar se a localização no mapa está correta, ele poderá confirmar o endereço e ir para a página de reserva ou buscar novamente, para alterar o endereço buscado. 
+
+
