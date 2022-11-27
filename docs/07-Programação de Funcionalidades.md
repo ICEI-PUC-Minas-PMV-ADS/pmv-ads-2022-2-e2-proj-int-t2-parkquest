@@ -273,6 +273,9 @@ O usuário poderá reservar uma vaga de estacionamento, no estacionamento mais p
 - reserva.html
 - main.js
 - main.css
+- Reserva.cs
+- ReservaController.cs
+- ApplicationDbContext.cs
 
 ### Estrutura de Dados
 
@@ -297,8 +300,8 @@ O usuário poderá efetuar o login com o e-mail e a senha informados quando ele 
 - login.html
 - main.js
 - main.css
-- Usuario.cs
-- UsuarioController.cs
+- Acesso.cs
+- AcessoController.cs
 - ApplicationDbContext.cs
 
 ### Estrutura de Dados
