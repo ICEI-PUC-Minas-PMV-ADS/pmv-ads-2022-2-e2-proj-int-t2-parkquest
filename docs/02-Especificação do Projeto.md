@@ -96,7 +96,7 @@ A tabela a seguir apresenta os requisitos funcionais do projeto, identificando s
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve apresentar um filtro na tela inicial com Local e Data de Entrada e Saída com título "Qual será sua próxima parada?" | ALTA | 
+|RF-001| A aplicação deve apresentar uma página de perguntas frequentes.  | ALTA | 
 |RF-002| A aplicação deve apresentar na tela inicial um ícone de perfil para fazer login, onde o usuário irá preencher os dados de “E-mail” e “Senha” cadastrados. Caso o usuário esteja logado, apresentar o nome do usuário junto ao ícone. | ALTA |
 |RF-003| A aplicação deverá ter uma página de cadastro do motorista, com os campos, nome, e-mail, senha, cadastro e CPF. | ALTA |
 |RF-004| A aplicação deve apresentar no rodapé um link para os contatos do site contendo telefone, Whatsapp, Instagram e e-mail. | MÉDIA |
@@ -104,15 +104,15 @@ A tabela a seguir apresenta os requisitos funcionais do projeto, identificando s
 |RF-006| O formulário de cadastro de novos empreendimentos deve conter: nome, e-mail, celular, estado, cidade, CNPJ, endereço, quantidade de vagas, tabela de preços e fotos do local. | ALTA |
 |RF-007| O administrador do estacionamento pode cadastrar, excluir, alterar e visualizar os dados do estacionamento. | ALTA |
 |RF-008| O usuário motorista pode cancelar, alterar e visualizar os dados de sua reserva. | ALTA |
-|RF-009| A aplicação deve apresentar na tela inicial ofertas e recomendações específicas para cada cidade. | ALTA |
-|RF-010| Após o usuário informar na página inicial a cidade e data de entrada e saída, a aplicação deve apresentar a funcionalidade de mostrar as informações em lista com os estacionamentos, disponibilidade, preço e um filtro para ordenar as escolhas. | ALTA |
-|RF-011| A aplicação deve conter um botão para o usuário selecionar o estacionamento desejado, e quando acionado deverá apresentar uma página com fotos do local, endereço, disponibilidade, descrição, ranking de estrelas, preço e o botão reservar. | ALTA |
+|RF-009| A aplicação deverá ter a localização precisa no mapa com o local que o usuário motorista pretende ir.| ALTA |
+|RF-010| Após o usuário informar a localização que pretende ir deverá ser encaminhado para a página de reserva, em que deverá informar e data de entrada e saída, a aplicação deve apresentar a funcionalidade de mostrar as informações em lista com os estacionamentos, disponibilidade, preço. | ALTA |
+|RF-011| A aplicação deve conter um botão para o usuário selecionar o estacionamento desejado, e quando acionado deverá apresentar uma página com fotos do local, endereço, disponibilidade, descrição, preço e o botão reservar. | ALTA |
 |RF-012| A aplicação deve permitir que no fechamento da reserva o usuário confirme os dados da reserva e finalize. | ALTA |
-|RF-013| A aplicação deve permitir visualizar as informações de contatos da(s) pessoa(s) que criaram o site e o mantém e permitir envio de mensagens para contato com os mesmos, informando nome, e-mail e texto da mensagem. | BAIXA |
+|RF-013| A aplicação deve permitir visualizar as informações de contatos da(s) pessoa(s) que criaram o site e o mantém. | BAIXA |
 |RF-014| Na página de Login, deve possuir um link com a opção de “Esqueci a senha”, caso o usuário precise criar uma nova senha. | ALTA |
 |RF-015| Na página de “Esqueci minha senha”, o usuário irá preencher o e-mail cadastrado. Caso esse e-mail não esteja na lista de cadastros, deverá ser exibida uma mensagem informando que o e-mail não está no cadastro. | ALTA |
 |RF-016| Na página de “Esqueci minha senha”, caso o e-mail esteja cadastrado, haverá a opção do usuário criar uma nova senha. Se a senha for válida. | ALTA |
-|RF-017| A aplicação deve apresentar um mapa com a localização dos empreendimentos mais próximos e os preços sugeridos. | ALTA |
+|RF-017| A aplicação deve ter um campo em que o usuário motorista vai preencher com o endereço que pretende ir. | ALTA |
 
 ### Requisitos não Funcionais
 
