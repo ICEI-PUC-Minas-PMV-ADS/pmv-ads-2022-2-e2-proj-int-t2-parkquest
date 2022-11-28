@@ -29,40 +29,39 @@
                         <p><span>Cadastro de Usuário</span></p>
                     </div>
 
-                    <div class="row d-flex justify-content-center">
+                    <div class="row g-0">
 
-                        <div class="row">
-                            <div class="col-md-12">
-                                <form asp-action="Create">
-                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                                    <div class="form-group">
-                                        <input asp-for="nome" class="form-control" placeholder="Nome"/>
-                                        <span asp-validation-for="nome" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <input asp-for="email" class="form-control" placeholder="E-mail"/>
-                                        <span asp-validation-for="email" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <input asp-for="cpf" class="form-control" placeholder="CPF"/>
-                                        <span asp-validation-for="cpf" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <input asp-for="senha" class="form-control" placeholder="Senha"/>
-                                        <span asp-validation-for="senha" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="submit" value="Create" class="btn btn-primary" />
-                                    </div>
-                                </form>
-                            </div>
+                        <div class="col-lg-6 reservation-img d-flex flex-column justify-content-center" data-aos="zoom-out" data-aos-delay="200">
+                            <img src="~/img/sobre.jpg" alt="sobre" style="width: 100%" />
                         </div>
 
+                        <div class="col-lg-6 d-flex align-items-center reservation-form-bg justify-content-center">
+                            <form asp-action="Create">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="form-group">
+                                    <input asp-for="nome" class="form-control" placeholder="Nome" />
+                                    <span asp-validation-for="nome" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input asp-for="email" class="form-control" placeholder="E-mail" />
+                                    <span asp-validation-for="email" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input asp-for="cpf" class="form-control" placeholder="CPF" />
+                                    <span asp-validation-for="cpf" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input asp-for="senha" class="form-control" placeholder="Senha" />
+                                    <span asp-validation-for="senha" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Criar" class="btn btn-primary" />
+                                </div>
+                            </form>
+                        </div>
                     </div>
-
                 </div>
             </section>
-
         </div>
     </section>
 

@@ -1315,8 +1315,9 @@ section {
 
 .book-a-table .php-email-form button[type=submit] {
   background: var(--color-primary);
+  width: 100%;
   border: 0;
-  padding: 14px 60px;
+  padding: .5rem;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;

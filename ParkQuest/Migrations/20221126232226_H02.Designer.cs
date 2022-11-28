@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ParkQuest.Models;
 
 namespace ParkQuest.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20221126232226_H02")]
+    partial class H02
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -93,11 +95,13 @@ namespace ParkQuest.Migrations
                     b.Property<int>("EstacionamentoID")
                         .HasColumnType("int");
 
-                    b.Property<decimal>("custoDia")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<string>("custoDia")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("custoTotal")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<string>("custoTotal")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("dataEntrada")
                         .HasColumnType("datetime2");

@@ -6,11 +6,11 @@
 <section id="hero" class="hero d-flex align-items-center section-bg">
     <div class="container">
         <div class="row justify-content-between gy-5">
-            <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+            <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center text-center">
                 <h2 data-aos="fade-up">Estacione Aqui!</h2>
                 <p data-aos="fade-up" data-aos-delay="100">Os melhores preços da região.</p>
                 <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-                    <a href="#book-a-table" class="btn-book-a-table">Reservar</a>
+                    <a asp-area="" asp-controller="Reserve" asp-action="Create" class="btn-book-a-table">Reservar</a>
                     <!--  <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>-->
                 </div>
             </div>
@@ -32,6 +32,10 @@
                 <p>Saiba mais <span>sobre nós</span></p>
             </div>
 
+            <div class="col-md-12 reservation-img justify-content-center" data-aos="zoom-out" data-aos-delay="200">
+                <img src="~/img/autoamg.jpg" alt="sobre" style="width: 100%; height: 100%; vertical-align: bottom" >
+            </div>
+
             <div class="row gy-4">
                 <div class="col-lg-7 position-relative about-img" style="background-image: url(assets/img/sobre.jpg) ;" data-aos="fade-up" data-aos-delay="150">
                     <div class="call-us position-absolute">
@@ -50,11 +54,11 @@
                             <li><i class="bi bi-check2-all"></i> Preços que cabem no seu bolso</li>
                         </ul>
                         <!--
-                        <p>
-                         Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-                        </p>
-                        -->
+                <p>
+                 Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                </p>
+                -->
                         <div class="position-relative mt-4">
                             <img src="assets/img/autoamg.jpg" class="img-fluid" alt="">
                             <!--<a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>-->
@@ -184,30 +188,6 @@
                 </div><!-- End Info Item -->
 
             </div>
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form p-3 p-md-4">
-                <div class="row">
-                    <div class="col-xl-6 form-group">
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" required>
-                    </div>
-                    <div class="col-xl-6 form-group">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
-                </div>
-                <div class="my-3">
-                    <div class="loading">Carregando</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Sua mensagem foi enviada com sucesso</div>
-                </div>
-                <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
-            </form>
-            <!--End Contact Form -->
 
         </div>
     </section><!-- End Contact Section -->

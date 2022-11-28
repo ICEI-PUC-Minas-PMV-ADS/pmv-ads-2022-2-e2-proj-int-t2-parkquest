@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Dominio.Entidades
@@ -31,6 +32,7 @@ namespace Dominio.Entidades
         [Required(ErrorMessage = "Obrigatório Informar a senha!")]
         public string senha { get; set; }
 
+        public ICollection<Reserve> Reservas { get; set; }
 
         public Estacionamento () { }
 

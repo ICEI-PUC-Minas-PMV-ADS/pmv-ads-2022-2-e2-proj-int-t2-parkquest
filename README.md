@@ -26,7 +26,6 @@ Este projeto desenvolverá uma aplicação interativa que possibilite às pessoa
 * José Wilson Da Costa
 
 ## Hospedagem
-
 https://parkquest20221030220308.azurewebsites.net/
 
 # Documentação
