@@ -11,15 +11,15 @@ authors:
     given-names: Leticia 
   - family-names: de Jesus Santos
     given-names: Samuel 
-  - family-names: Bicalho Cruz Magalhães
+  - family-names: Bicalho Cruz Magalhaes
     given-names: Ramon 
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: Wilson Da Costa
-    given-names: José 
+    given-names: Jose 
 
 keywords:
-  - Gestão
+  - Gestao
   - Estacionamento
   - Vagas	
 repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-parkquest
