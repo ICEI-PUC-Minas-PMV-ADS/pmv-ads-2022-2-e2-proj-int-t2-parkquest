@@ -1,0 +1,27 @@
+message: Please cite this software using these metadata.
+title: ParkQuest
+authors:
+  - family-names: Alkmim de Oliveira 
+    given-names: Fabiana
+  - family-names: Barbosa Caetano Abran
+    given-names: Gabriela
+  - family-names: Nordson Silva dos Santos
+    given-names: Herbert 
+  - family-names: Alves dos Santos Rosolem
+    given-names: Leticia 
+  - family-names: de Jesus Santos
+    given-names: Samuel 
+  - family-names: Bicalho Cruz Magalhães
+    given-names: Ramon 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Wilson Da Costa
+    given-names: José 
+
+keywords:
+  - Gestão
+  - Estacionamento
+  - Vagas	
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t2-parkquest
+version: 1.0.0
+date-released: 2022-11-27
